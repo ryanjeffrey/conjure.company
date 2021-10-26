@@ -7,10 +7,10 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
-import Header from "./header"
 import "./layout.css"
+import "../assets/css/main.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,23 +25,34 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div>
+        <nav>
+          <div id="nav-inner">
+            <h1>RSC</h1>
+            <ul>
+              <li>
+                <h2>Work</h2>
+              </li>
+              <li>
+                <h2>About</h2>
+              </li>
+              <li>
+                <h2>Contact</h2>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            color: "#F7F4F0",
+            textAlign: "center",
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <p>
+            © {new Date().getFullYear()} RSC CREATIVE LLC
+            <br /> CHICAGO, ILLINOIS
+          </p>
         </footer>
       </div>
     </>
