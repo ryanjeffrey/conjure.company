@@ -5,7 +5,7 @@ import "./main.css"
 
 const navbar = () => {
     return (
-      <div>
+      <div id="nav-outer">
         <nav>
           <div id="nav-inner">
             <h1>RSC</h1>

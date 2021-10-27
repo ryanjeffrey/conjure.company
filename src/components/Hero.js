@@ -214,11 +214,14 @@ const Hero = () => {
             </svg>
           </div>
         </div>
-        <div id="equality">
-          <h2>
-            Our partners embrace equality, sustainability, and positive social
-            impact.
-          </h2>
+        <div className="container">
+          <div id="equality">
+            <h2>
+              Our partners embrace equality, sustainability, and positive social
+              impact.
+            </h2>
+            <button>start a project</button>
+          </div>
         </div>
       </div>
     )
