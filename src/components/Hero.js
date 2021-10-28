@@ -45,171 +45,162 @@ const Hero = () => {
         <div id="sunbursts">
           <div className="sun-wrapper">
             <svg
-              width="89"
-              height="89"
-              viewBox="0 0 89 89"
+              width="160"
+              height="160"
+              viewBox="0 0 160 160"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M88.1651 44.0826C88.1651 68.4287 68.4287 88.1651 44.0826 88.1651C19.7364 88.1651 0 68.4287 0 44.0826C0 19.7364 19.7364 0 44.0826 0C68.4287 0 88.1651 19.7364 88.1651 44.0826Z"
-                fill="#121212"
+              <line y1="79.501" x2="160" y2="79.501" stroke="#F7F4F0" />
+              <line
+                x1="3.11278"
+                y1="101.195"
+                x2="157.661"
+                y2="59.7837"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M88.1651 44.083H0V43.083H88.1651V44.083Z"
-                fill="#F7F4F0"
+              <line
+                x1="11.3535"
+                y1="120.857"
+                x2="149.918"
+                y2="40.857"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M86.9471 33.2086L1.78616 56.0274L1.52734 55.0615L86.6883 32.2427L86.9471 33.2086Z"
-                fill="#F7F4F0"
+              <line
+                x1="24.4824"
+                y1="137.453"
+                x2="137.619"
+                y2="24.316"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M82.7478 22.7522L6.39453 66.8348L5.89453 65.9688L82.2478 21.8862L82.7478 22.7522Z"
-                fill="#F7F4F0"
+              <line
+                x1="41.4264"
+                y1="150.461"
+                x2="121.426"
+                y2="11.8969"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M76.0268 13.5935L13.6846 75.9356L12.9775 75.2285L75.3197 12.8863L76.0268 13.5935Z"
-                fill="#F7F4F0"
+              <line
+                x1="61.6498"
+                y1="157.806"
+                x2="103.061"
+                y2="3.25799"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M67.1478 6.69265L23.0652 83.0459L22.1992 82.5459L66.2818 6.19265L67.1478 6.69265Z"
-                fill="#F7F4F0"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M57.0562 1.86639L34.2374 87.0274L33.2715 86.7686L56.0903 1.60757L57.0562 1.86639Z"
-                fill="#F7F4F0"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M45.8223 -9.92258e-05L45.8223 88.165L44.8223 88.165L44.8223 -9.91821e-05L45.8223 -9.92258e-05Z"
-                fill="#F7F4F0"
+              <line
+                x1="82.6562"
+                y1="160"
+                x2="82.6562"
+                y2="2.18557e-08"
+                stroke="#F7F4F0"
               />
             </svg>
           </div>
 
           <div className="sun-wrapper">
             <svg
-              width="89"
-              height="89"
-              viewBox="0 0 89 89"
+              width="160"
+              height="160"
+              viewBox="0 0 160 160"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M88.1651 44.0826C88.1651 68.4287 68.4287 88.1651 44.0826 88.1651C19.7364 88.1651 0 68.4287 0 44.0826C0 19.7364 19.7364 0 44.0826 0C68.4287 0 88.1651 19.7364 88.1651 44.0826Z"
-                fill="#121212"
+              <line y1="79.501" x2="160" y2="79.501" stroke="#F7F4F0" />
+              <line
+                x1="3.11278"
+                y1="101.195"
+                x2="157.661"
+                y2="59.7837"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M88.1651 44.083H0V43.083H88.1651V44.083Z"
-                fill="#F7F4F0"
+              <line
+                x1="11.3535"
+                y1="120.857"
+                x2="149.918"
+                y2="40.857"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M86.9471 33.2086L1.78616 56.0274L1.52734 55.0615L86.6883 32.2427L86.9471 33.2086Z"
-                fill="#F7F4F0"
+              <line
+                x1="24.4824"
+                y1="137.453"
+                x2="137.619"
+                y2="24.316"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M82.7478 22.7522L6.39453 66.8348L5.89453 65.9688L82.2478 21.8862L82.7478 22.7522Z"
-                fill="#F7F4F0"
+              <line
+                x1="41.4264"
+                y1="150.461"
+                x2="121.426"
+                y2="11.8969"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M76.0268 13.5935L13.6846 75.9356L12.9775 75.2285L75.3197 12.8863L76.0268 13.5935Z"
-                fill="#F7F4F0"
+              <line
+                x1="61.6498"
+                y1="157.806"
+                x2="103.061"
+                y2="3.25799"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M67.1478 6.69265L23.0652 83.0459L22.1992 82.5459L66.2818 6.19265L67.1478 6.69265Z"
-                fill="#F7F4F0"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M57.0562 1.86639L34.2374 87.0274L33.2715 86.7686L56.0903 1.60757L57.0562 1.86639Z"
-                fill="#F7F4F0"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M45.8223 -9.92258e-05L45.8223 88.165L44.8223 88.165L44.8223 -9.91821e-05L45.8223 -9.92258e-05Z"
-                fill="#F7F4F0"
+              <line
+                x1="82.6562"
+                y1="160"
+                x2="82.6562"
+                y2="2.18557e-08"
+                stroke="#F7F4F0"
               />
             </svg>
           </div>
 
           <div className="sun-wrapper">
             <svg
-              width="89"
-              height="89"
-              viewBox="0 0 89 89"
+              width="160"
+              height="160"
+              viewBox="0 0 160 160"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M88.1651 44.0826C88.1651 68.4287 68.4287 88.1651 44.0826 88.1651C19.7364 88.1651 0 68.4287 0 44.0826C0 19.7364 19.7364 0 44.0826 0C68.4287 0 88.1651 19.7364 88.1651 44.0826Z"
-                fill="#121212"
+              <line y1="79.501" x2="160" y2="79.501" stroke="#F7F4F0" />
+              <line
+                x1="3.11278"
+                y1="101.195"
+                x2="157.661"
+                y2="59.7837"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M88.1651 44.083H0V43.083H88.1651V44.083Z"
-                fill="#F7F4F0"
+              <line
+                x1="11.3535"
+                y1="120.857"
+                x2="149.918"
+                y2="40.857"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M86.9471 33.2086L1.78616 56.0274L1.52734 55.0615L86.6883 32.2427L86.9471 33.2086Z"
-                fill="#F7F4F0"
+              <line
+                x1="24.4824"
+                y1="137.453"
+                x2="137.619"
+                y2="24.316"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M82.7478 22.7522L6.39453 66.8348L5.89453 65.9688L82.2478 21.8862L82.7478 22.7522Z"
-                fill="#F7F4F0"
+              <line
+                x1="41.4264"
+                y1="150.461"
+                x2="121.426"
+                y2="11.8969"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M76.0268 13.5935L13.6846 75.9356L12.9775 75.2285L75.3197 12.8863L76.0268 13.5935Z"
-                fill="#F7F4F0"
+              <line
+                x1="61.6498"
+                y1="157.806"
+                x2="103.061"
+                y2="3.25799"
+                stroke="#F7F4F0"
               />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M67.1478 6.69265L23.0652 83.0459L22.1992 82.5459L66.2818 6.19265L67.1478 6.69265Z"
-                fill="#F7F4F0"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M57.0562 1.86639L34.2374 87.0274L33.2715 86.7686L56.0903 1.60757L57.0562 1.86639Z"
-                fill="#F7F4F0"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M45.8223 -9.92258e-05L45.8223 88.165L44.8223 88.165L44.8223 -9.91821e-05L45.8223 -9.92258e-05Z"
-                fill="#F7F4F0"
+              <line
+                x1="82.6562"
+                y1="160"
+                x2="82.6562"
+                y2="2.18557e-08"
+                stroke="#F7F4F0"
               />
             </svg>
           </div>
@@ -220,7 +211,7 @@ const Hero = () => {
               Our partners embrace equality, sustainability, and positive social
               impact.
             </h2>
-            <button>start a project</button>
+            {/* <button>start a project</button> */}
           </div>
         </div>
       </div>
