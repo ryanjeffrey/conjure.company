@@ -19,7 +19,7 @@ const Hero = () => {
           <StaticImage
             src="../images/caya-hero.png"
             className="hero-img"
-            width={1096}
+            width={1280}
             quality={100}
             margin={0}
             formats={["auto", "webp", "avif"]}
@@ -31,7 +31,7 @@ const Hero = () => {
           <StaticImage
             src="../images/indigo-hero.png"
             className="hero-img"
-            width={1096}
+            width={1280}
             quality={100}
             margin={0}
             formats={["auto", "webp", "avif"]}
@@ -39,8 +39,10 @@ const Hero = () => {
           />
         </div>
 
-        <div id="bespoke">
-          <h2>We design bespoke web experiences</h2>
+        <div className="container">
+          <div id="bespoke">
+            <h2>We design bespoke web experiences</h2>
+          </div>
         </div>
         <div id="sunbursts">
           <div className="sun-wrapper">

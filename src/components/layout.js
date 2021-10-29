@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div>
+      <div className="all-content">
         <NavBar />
         <main>{children}</main>
         <StyledFooter />

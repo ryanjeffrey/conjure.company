@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 
 import "./layout.css"
 import "./main.css"
@@ -8,16 +9,16 @@ const navbar = () => {
       <div id="nav-outer">
         <nav>
           <div id="nav-inner">
-            <h1>RSC</h1>
+            <Link to ="/"><h1>RSC</h1></Link>
             <ul>
               <li>
-                <h2>Work</h2>
+                <Link to="/work"><h2>Work</h2></Link>
               </li>
               <li>
-                <h2>About</h2>
+                <Link to="/about"><h2>About</h2></Link>
               </li>
               <li>
-                <h2>Contact</h2>
+                <Link to="/contact"><h2>Contact</h2></Link>
               </li>
             </ul>
           </div>
