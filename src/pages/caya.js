@@ -6,11 +6,12 @@ import Seo from "../components/seo"
 import Hero from "../components/Hero"
 import Cards from "../components/cards"
 import "../components/main.css"
+import "../components/layout.css"
 
 const caya = () => (
   <Layout>
     <Seo title="CAYA Case Study" />
-    <div className="">
+    <div className="case-study">
       <h6>Designing and launching a telehealth brand</h6>
       <p>CAYA →
           <br/>

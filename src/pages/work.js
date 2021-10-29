@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const work = () => {
     return (
@@ -16,13 +17,13 @@ const work = () => {
               <div className="item1">
                 <h6>CAYA</h6>
                 <p id="designing">Designing and launching a telehealth brand</p>
-                <p id="see-more">see more →</p>
+                <Link to="/caya"><p id="see-more">see more →</p></Link>
               </div>
 
               <div className="item2">
                 <div className="img-wrapper">
                   <StaticImage
-                    src="../images/caya-desktop.png"
+                    src="../images/caya-home.png"
                     className="hero-img"
                     width={1096}
                     quality={100}
@@ -41,7 +42,7 @@ const work = () => {
               <div className="item2">
                 <div className="img-wrapper">
                   <StaticImage
-                    src="../images/indigo-desktop.png"
+                    src="../images/indigo-home.png"
                     className="hero-img"
                     width={1096}
                     quality={100}

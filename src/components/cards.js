@@ -10,7 +10,7 @@ const cards = () => {
             <div className="wrapper">
             <div className="card1">
                 <StaticImage
-                src="../images/head.png"
+                src="../images/head.jpeg"
                 className="hero-img"
                 width={1096}
                 quality={100}
@@ -26,7 +26,7 @@ const cards = () => {
 
             <div className="card2">
                 <StaticImage
-                src="../images/eye.png"
+                src="../images/eye.jpeg"
                 className="hero-img"
                 width={1096}
                 quality={100}
@@ -43,7 +43,7 @@ const cards = () => {
 
             <div className="card3">
                 <StaticImage
-                src="../images/shapes.png"
+                src="../images/shapes.jpeg"
                 className="hero-img"
                 width={1096}
                 quality={100}

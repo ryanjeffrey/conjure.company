@@ -267,7 +267,6 @@ li {
 .card2,
 .card3 {
   color: var(--black);
-  background-color: #f7f4f0;
 }
 
 .card1 {
@@ -287,7 +286,7 @@ li {
 /********* WORK PAGE **********/
 
 .case-studies-text {
-  margin: 96px auto 0px;
+  margin: 96px auto;
   padding-top: 48px;
   max-width: 1280px;
 }
@@ -353,9 +352,16 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 48px;
+  margin-left: 96px;
 }
 
+
+/*********** CAYA  *************/
+.case-study {
+  margin: 96px auto;
+  padding-top: 48px;
+  max-width: 1280px;
+}
 
 /************* DESKTOP BREAKPOINT ***************/
 @media only screen and (max-width: 1440px) {
