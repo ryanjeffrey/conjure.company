@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `RSC`,
     description: `Custom website design and development based in Chicago`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `Ryan Jeffrey Smith`,
+    siteUrl: `https://rsc-creative.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

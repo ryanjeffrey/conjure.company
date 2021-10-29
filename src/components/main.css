@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+@font-face {
+  font-family: "Voyage";
+  src: url(../fonts/Voyage-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Voyage";
+  src: url(../fonts/Voyage-Bold.woff2);
+  font-weight: bold;
+}
+
 :root {
     --main-font: 'Voyage', Georgia, 'Times New Roman', Times, serif;
     --secondary-font: 'Questrial', Arial, Helvetica, sans-serif;
     
     --black: #121212;
-    --white: #F7F4F0;
+    --white: #ffffff;
     --color-accent: #8D8D8D;
 
     --line-global: 24px;
@@ -20,22 +31,12 @@
   /* padding: 24px; */
 }
 
-@font-face {
-  font-family: "Voyage";
-  src: url(../fonts/Voyage-Regular.woff2);
-}
-
-@font-face {
-  font-family: "Voyage";
-  src: url(../fonts/Voyage-Bold.woff2);
-  font-weight: bold;
-}
 
 body {
   font-family: var(--secondary-font);
   font-weight: normal;
-  color: var(--white);
-  background-color: var(--black);
+  color: var(--black);
+  background-color: var(--white);
   line-height: 1.3;
 }
 
@@ -71,11 +72,10 @@ nav {
     position: fixed;
     top: 0px;
     left: 0px;
-    padding: 24px 0;
     width: 100%;
     height: 96px;
     z-index: 99;
-    background: var(--black);
+    background: var(--white);
     transition: background 350ms cubic-bezier(0, 0, 0.2, 1) 0s;
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     will-change: background;
@@ -112,8 +112,8 @@ button:hover {
   font-size: 48px;
   font-family: var(--main-font);
   font-weight: bold;
-  padding-bottom: 96px;
   text-align: center;
+  margin: 0 auto;
 }
 
 #nav-inner {
@@ -153,13 +153,12 @@ li {
 }
 
 #hero-text {
-  font-size: 200px;
+  font-size: 12rem;
   text-align: left;
   line-height: .9;
   margin-top: 112px;
   padding: 96px 0;
   word-wrap: normal;
-  
 }
 
 .img-wrapper {
@@ -173,7 +172,7 @@ li {
   display: grid;
   color: var(--black);
   background-color: var(--white);
-  height: 400px;
+
 }
 
 #bespoke h2 {
@@ -182,7 +181,7 @@ li {
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #sunbursts {
@@ -217,24 +216,34 @@ li {
   display: flex;
 }
 
+#equality {
+  max-width: 1280px;
+  border-bottom: 1px solid var(--black);
+  margin: 0 auto;
+  overflow: auto;
+}
 
 #equality h2 {
-  font-size: 64px;
+  font-size: 128px;
+  font-weight: normal;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-weight: bold;
+  margin: 0 auto;
+  padding: 96px 0;
 }
 
 
 .card-container {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 96px 0;
 }
 
 .card-container h3 {
-  margin: 96px 0 48px 0;
+  margin: 0;
+  padding-bottom: 48px;
 }
 
 .wrapper {
@@ -257,8 +266,8 @@ li {
 .card1,
 .card2,
 .card3 {
-  color: #f7f4f0;
-  background-color: #161616;
+  color: var(--black);
+  background-color: #f7f4f0;
 }
 
 .card1 {
@@ -300,8 +309,13 @@ li {
   font-size: 24px;
 }
 
-.case-studies-text p {
+#designing {
   font-size: 40px;
+}
+
+#see-more {
+  font-family: var(--main-font);
+  font-size: 32px;
 }
 
 .grid-container {
@@ -325,5 +339,109 @@ li {
   padding: 12px 0 0 0;
 }
 
+.case-study-spacer {
+  border-bottom: 1px solid #121212;
+  padding: 48px 0;
+}
+
+.case-study-spacer-2 {
+  border: none;
+  padding: 48px 0;
+}
+
+.text-on-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 48px;
+}
 
 
+/************* DESKTOP BREAKPOINT ***************/
+@media only screen and (max-width: 1440px) {
+  .container, .card-container, .img-wrapper, .case-studies-text, nav h1 {
+    padding: 24px;
+  }
+
+}
+
+/******** TABLET BREAKPOINT  ************/
+@media only screen and (min-width: 600px) {
+ 
+}
+
+
+
+
+
+/************ MOBILE BREAKPOINT ***************/
+@media only screen and (max-width: 600px) {
+  .all-content {
+    width: 100%;
+  }
+
+  .container {
+    padding: 24px;
+  }
+
+  #hero-text {
+    font-size: 5rem;
+  }
+
+  #hero-text h1 {
+    padding: 24px;
+  }
+
+  #equality h2 {
+    padding: 48px 0 96px;
+    font-size: 3rem;
+  }
+
+  
+  nav {
+    height: 64px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  nav h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .wrapper {
+    display: block;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    padding-bottom: 96px;
+  }
+
+
+  .card-container h3, .case-studies-text h3 {
+  font-size: 3rem;
+}
+
+
+  /* WORK PAGE */
+  .grid-container {
+    display: block;
+  }
+
+  .case-studies-text h5 {
+    font-size: 1.3rem;
+  }
+
+  .grid-container .img-wrapper {
+  padding: 24px 0;
+  }
+
+  .text-on-right {
+  margin: 0;
+}
+
+}

@@ -15,8 +15,8 @@ const work = () => {
             <div className="grid-container">
               <div className="item1">
                 <h6>CAYA</h6>
-                <p>Designing and launching a telehealth brand</p>
-                <p>see more →</p>
+                <p id="designing">Designing and launching a telehealth brand</p>
+                <p id="see-more">see more →</p>
               </div>
 
               <div className="item2">
@@ -30,6 +30,35 @@ const work = () => {
                     formats={["auto", "webp", "avif"]}
                     alt="caya wellness"
                   />
+                </div>
+              </div>
+            </div>
+
+            <div className="case-study-spacer"></div>
+            <div className="case-study-spacer-2"></div>
+
+            <div className="grid-container">
+              <div className="item2">
+                <div className="img-wrapper">
+                  <StaticImage
+                    src="../images/indigo-desktop.png"
+                    className="hero-img"
+                    width={1096}
+                    quality={100}
+                    margin={0}
+                    formats={["auto", "webp", "avif"]}
+                    alt="indigo hair care"
+                  />
+                </div>
+              </div>
+
+              <div className="text-on-right">
+                <div className="item1">
+                  <h6>INDIGO</h6>
+                  <p id="designing">
+                    Designing an e-comm store for an established beauty brand
+                  </p>
+                  <p id="see-more">see more →</p>
                 </div>
               </div>
             </div>
