@@ -363,9 +363,55 @@ li {
   max-width: 1280px;
 }
 
+#caya {
+
+}
+
+h6 {
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.case-study p {
+  padding: 48px 0 0 0;
+}
+
+.case-study .img-wrapper {
+  padding: 48px 0 0 0;
+}
+
+.case-study h3 {
+  padding: 48px 0 0 0;
+  margin: 0;
+}
+
+.half-wrapper {
+  width: 50%;
+}
+
+.case-study h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.numbers {
+  padding: 48px 0;
+}
+
+.numbers h4 {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 96px;
+}
+
+.numbers p {
+  padding: 0 0 24px 0;
+}
+
 /************* DESKTOP BREAKPOINT ***************/
 @media only screen and (max-width: 1440px) {
-  .container, .card-container, .img-wrapper, .case-studies-text, nav h1 {
+  .container, .card-container, .img-wrapper, .case-studies-text, nav h1, .case-study {
     padding: 24px;
   }
 
@@ -406,7 +452,7 @@ li {
   
   nav {
     height: 64px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   }
 
   nav h1 {

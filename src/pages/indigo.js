@@ -9,31 +9,31 @@ import Cards from "../components/cards"
 import "../components/main.css"
 import "../components/layout.css"
 
-const caya = () => (
+const indigo = () => (
   <Layout>
-    <Seo title="CAYA Case Study" />
+    <Seo title="INDIGO Case Study" />
     <div className="case-study">
       <div className="half-wrapper">
-        <h6>Designing and launching a telehealth brand</h6>
+        <h6>Designing an e-comm store for an established beauty brand</h6>
       </div>
       <p>
-        CAYA →
+        INDIGO →
         <br />
-        Timeline: 8 weeks
+        Timeline: 5 weeks
         <br />
-        KPIs: qualified leads, bounce rate, organic traffic
+        KPIs: conversions, average order value, organic traffic
       </p>
 
       <div className="img-wrapper">
         <StaticImage
-          src="../images/caya-hero.png"
+          src="../images/indigo-hero.png"
           className="hero-img"
           width={640}
           quality={100}
           margin={0}
           formats={["auto", "webp", "avif"]}
-          alt="caya wellness"
-          id="caya"
+          alt="indigo hair care"
+          id="indigo"
         />
       </div>
 
@@ -67,10 +67,12 @@ const caya = () => (
           <p>unique organic users in the first 3 months</p>
         </div>
 
-        <Link to="/indigo"><p>Next →</p></Link>
+        <Link to="/caya">
+          <p>← Previous</p>
+        </Link>
       </div>
     </div>
   </Layout>
 )
 
-export default caya
+export default indigo

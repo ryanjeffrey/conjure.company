@@ -59,7 +59,7 @@ const work = () => {
                   <p id="designing">
                     Designing an e-comm store for an established beauty brand
                   </p>
-                  <p id="see-more">see more →</p>
+                  <Link to="/indigo"><p id="see-more">see more →</p></Link>
                 </div>
               </div>
             </div>
