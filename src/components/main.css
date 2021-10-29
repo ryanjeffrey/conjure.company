@@ -363,9 +363,7 @@ li {
   max-width: 1280px;
 }
 
-#caya {
 
-}
 
 h6 {
   font-family: var(--secondary-font);
@@ -418,8 +416,15 @@ h6 {
 }
 
 /******** TABLET BREAKPOINT  ************/
-@media only screen and (min-width: 600px) {
- 
+@media only screen and (max-width: 1000px) {
+  .half-wrapper {
+    max-width: 768px;
+    width: 100%;
+  }
+  
+  #caya img {
+    width: 100%;
+  }
 }
 
 
