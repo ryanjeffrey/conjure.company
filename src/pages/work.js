@@ -3,13 +3,15 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import "../components/main.css"
+import "../components/layout.css"
 
 const work = () => {
     return (
       <div>
         <Layout>
           <Seo title="Work" />
-          <div className="case-studies-text">
+          <div className="case-studies-text cssanimation sequence fadeInBottom">
             <h3>Case Studies</h3>
             <h5>Selected digital experiences</h5>
 
@@ -17,7 +19,9 @@ const work = () => {
               <div className="item1">
                 <h6>CAYA</h6>
                 <p id="designing">Designing and launching a telehealth brand</p>
-                <Link to="/caya"><p id="see-more">see more →</p></Link>
+                <Link to="/caya">
+                  <p id="see-more">see more →</p>
+                </Link>
               </div>
 
               <div className="item2">
@@ -59,7 +63,9 @@ const work = () => {
                   <p id="designing">
                     Designing an e-comm store for an established beauty brand
                   </p>
-                  <Link to="/indigo"><p id="see-more">see more →</p></Link>
+                  <Link to="/indigo">
+                    <p id="see-more">see more →</p>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Hero = () => {
     return (
       <div>
-        <div className="container">
+        <div className="container cssanimation sequence fadeInBottom">
           <h1 id="hero-text">
             Websites
             <br />
@@ -27,12 +27,13 @@ const Hero = () => {
           />
         </div>
 
-
-        
-        <div className="container">
+        <div className="container cssanimation sequence fadeInBottom">
           <div id="equality">
-            <h2>We design bespoke web experiences for brands that embrace Equality, sustainability, and positive social impact.</h2>
-           
+            <h2>
+              We design bespoke web experiences for brands that embrace
+              Equality, sustainability, and positive social impact.
+            </h2>
+
             {/* <button>start a project</button> */}
           </div>
         </div>

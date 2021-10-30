@@ -90,7 +90,7 @@ button {
   color: var(--black);
   text-decoration: none;
   font-size: 40px;
-  border: 2px solid var(--black);
+  border: 1px solid var(--black);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -99,7 +99,7 @@ button {
 }
 
 button:hover {
-  background-color: #cd7672;
+  background-color: #8abea0;
 }
 
 
@@ -158,8 +158,25 @@ li {
   text-align: left;
   line-height: .9;
   margin-top: 112px;
-  padding: 96px 0;
+  padding: 96px 0 24px 24px;
   word-wrap: normal;
+}
+
+
+.cssanimation, .cssanimation span {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    to { opacity: 1 }
 }
 
 .img-wrapper {
@@ -218,7 +235,7 @@ li {
 }
 
 #equality {
-  max-width: 1280px;
+  max-width: 1232px;
   border-bottom: 1px solid var(--black);
   margin: 0 auto;
   overflow: auto;
@@ -408,11 +425,60 @@ h6 {
   padding: 0 0 24px 0;
 }
 
-/************* DESKTOP BREAKPOINT ***************/
-@media only screen and (max-width: 1440px) {
-  .container, .card-container, .img-wrapper, .case-studies-text, nav h1, .case-study {
+
+
+/*********** About Page ***************/
+.about-wrapper, .contact-page {
+  margin-top: 112px;
+}
+
+.about-wrapper h2 {
+  font-size: 128px;
+  padding: 24px;
+}
+
+.about-wrapper img {
+  padding: 24px 0;
+}
+
+.about-wrapper p {
+  display: flex;
+}
+
+
+
+/*********** Contact Page ***************/
+
+.contact-page {
+  padding-bottom: 96px;
+}
+
+.contact-page h2, p {
+  padding: 24px;
+}
+
+.contact-page h2 {
+  font-size: 80px;
+}
+
+.contact-page p {
+  font-size: 32px;
+}
+
+
+.contact-page button {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.container, .card-container, .img-wrapper, .case-studies-text, nav h1, .case-study {
     padding: 24px;
   }
+/************* DESKTOP BREAKPOINT ***************/
+@media only screen and (max-width: 1440px) {
+  
 
 }
 
