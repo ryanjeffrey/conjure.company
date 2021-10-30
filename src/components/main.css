@@ -158,7 +158,8 @@ li {
   text-align: left;
   line-height: .9;
   margin-top: 112px;
-  padding: 96px 0 24px 24px;
+  max-width: 1280px;
+  padding: 96px 0 24px 0;
   word-wrap: normal;
 }
 
@@ -493,7 +494,9 @@ h6 {
     width: 100%;
   }
 
-  
+  #hero-text {
+  padding: 48px 0 24px 0;
+  }
 
 }
 
@@ -514,11 +517,11 @@ h6 {
   }
 
   #hero-text {
-    font-size: 5rem;
+    font-size: 7rem;
   }
 
   #hero-text h1 {
-    padding: 24px;
+    /* padding: 24px; */
   }
 
   #equality h2 {

@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
+import { ImageCarousel } from "./ImageCarousel.js"
 
 const Hero = () => {
     return (
@@ -15,7 +16,10 @@ const Hero = () => {
           <p>&#8595;</p>
         </div>
 
+
+
         <div className="img-wrapper">
+          
           <StaticImage
             src="../images/caya-home-page.png"
             className="hero-img"
