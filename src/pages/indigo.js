@@ -31,7 +31,7 @@ const indigo = () => (
           width={640}
           quality={100}
           margin={0}
-          formats={["auto", "webp", "avif"]}
+          formats={["auto", "webp"]}
           alt="indigo hair care"
           id="indigo"
         />

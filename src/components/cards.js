@@ -10,11 +10,11 @@ const cards = () => {
             <div className="wrapper">
             <div className="card1">
                 <StaticImage
-                src="../images/head.jpeg"
+                src="../images/head.jpg"
                 className="hero-img"
                 width={1096}
                 quality={100}
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="indigo hair care"
                 />
                 <h4>Digital Strategy</h4>
@@ -26,11 +26,11 @@ const cards = () => {
 
             <div className="card2">
                 <StaticImage
-                src="../images/eye.jpeg"
+                src="../images/eye.jpg"
                 className="hero-img"
                 width={1096}
                 quality={100}
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="indigo hair care"
                 />
                 <h4>Design</h4>
@@ -43,11 +43,11 @@ const cards = () => {
 
             <div className="card3">
                 <StaticImage
-                src="../images/shapes.jpeg"
+                src="../images/shapes.jpg"
                 className="hero-img"
                 width={1096}
                 quality={100}
-                formats={["auto", "webp", "avif"]}
+                formats={["auto", "webp"]}
                 alt="indigo hair care"
                 />
                 <h4>Development</h4>

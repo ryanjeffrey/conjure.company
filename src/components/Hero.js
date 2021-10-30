@@ -22,7 +22,7 @@ const Hero = () => {
             width={1280}
             quality={100}
             margin={0}
-            formats={["auto", "webp", "avif"]}
+            formats={["auto", "webp"]}
             alt="caya wellness"
           />
         </div>
