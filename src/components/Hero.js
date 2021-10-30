@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className="img-wrapper">
           <StaticImage
-            src="../images/caya-home.png"
+            src="../images/caya-home-page.png"
             className="hero-img"
             width={1280}
             quality={100}

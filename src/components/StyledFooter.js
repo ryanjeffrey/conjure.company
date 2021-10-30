@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from "gatsby"
 
+
 const StyledFooter = () => {
     return (
-      <div
+      <div className="styled-footer"
         style={{
           display: "flex",
           backgroundColor: "#121212",

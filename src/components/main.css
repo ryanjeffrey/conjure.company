@@ -38,6 +38,7 @@ body {
   color: var(--black);
   background-color: var(--white);
   line-height: 1.3;
+  overflow: hidden;
 }
 
 h1 {
@@ -425,6 +426,9 @@ h6 {
   #caya img {
     width: 100%;
   }
+
+  
+
 }
 
 
@@ -433,6 +437,8 @@ h6 {
 
 /************ MOBILE BREAKPOINT ***************/
 @media only screen and (max-width: 600px) {
+
+  
   .all-content {
     width: 100%;
   }

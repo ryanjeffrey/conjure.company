@@ -23,10 +23,10 @@ const work = () => {
               <div className="item2">
                 <div className="img-wrapper">
                   <StaticImage
-                    src="../images/caya-home.png"
+                    src="../images/caya-home-page.png"
                     className="hero-img"
                     width={1096}
-                    quality={100}
+                    quality={60}
                     margin={0}
                     formats={["auto", "webp", "avif"]}
                     alt="caya wellness"
