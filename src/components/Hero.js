@@ -1,6 +1,14 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
+import SimpleImageSlider from "react-simple-image-slider"
 
+const images = [
+  { url: "(https://picsum.photos/1280/800)" },
+  { url: "../images/indigo-desktop.png" },
+  { url: "../images/shapes.png" },
+  { url: "../images/head.png" },
+  { url: "../images/hand.png" },
+]
 
 const Hero = () => {
     return (
@@ -16,18 +24,16 @@ const Hero = () => {
           <p>&#8595;</p>
         </div>
 
-
+        
 
         <div className="img-wrapper">
-          <StaticImage
-            src="../images/caya-home-page.png"
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="caya wellness"
-          />
+          <SimpleImageSlider
+          width={1280}
+          height={800}
+          images={images}
+          showBullets={true}
+          showNavs={true}
+        />
         </div>
 
         <div className="container cssanimation sequence fadeInBottom">

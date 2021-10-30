@@ -159,7 +159,7 @@ li {
   line-height: .9;
   margin-top: 112px;
   max-width: 1280px;
-  padding: 96px 0 24px 0;
+  padding: 96px 0 24px 24px;
   word-wrap: normal;
 }
 
