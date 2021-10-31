@@ -102,6 +102,31 @@ button:hover {
   background-color: #8abea0;
 }
 
+.styled-footer {
+  display: flex;
+  background-color: #121212
+}
+
+footer {
+  background-color: #121212;
+  color: #F7F4F0;
+  padding: 0 0 48px 0;
+  margin: 0 auto;
+}
+
+#start-a-project {
+  text-align: center;
+  margin: 0;
+  padding: 0 0 120px 0;
+  font-family: var(--main-font);
+  font-size: 248px;
+  line-height: 0.7;
+}
+
+#footer-footer {
+  text-align: center;
+  margin: 0;
+}
 
 .container h1, h2, p{
   max-width: 1280px;
@@ -184,6 +209,18 @@ li {
   margin: 0 auto;
   max-width: 1280px;
   padding: 96px 0;
+}
+
+.carousel-wrapper {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1232px;
+  height: 800px;
+}
+
+.carousel-wrapper button {
+  border: none;
+  box-shadow: none;
 }
 
 
@@ -495,7 +532,12 @@ h6 {
   }
 
   #hero-text {
-  padding: 48px 0 24px 0;
+    padding: 48px 0 24px 0px;
+  }
+
+  #start-a-project {
+    font-size: 160px;
+    padding: 24px;
   }
 
 }
@@ -524,9 +566,18 @@ h6 {
     /* padding: 24px; */
   }
 
+  .carousel-wrapper {
+    height: 600px;
+  }
+
   #equality h2 {
     padding: 48px 0 96px;
     font-size: 3rem;
+  }
+
+  #start-a-project {
+    font-size: 96px;
+    padding: 24px;
   }
 
   

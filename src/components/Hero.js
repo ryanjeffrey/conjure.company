@@ -3,12 +3,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import SimpleImageSlider from "react-simple-image-slider"
 
 const images = [
-  { url: "(https://picsum.photos/1280/800)" },
-  { url: "../images/indigo-desktop.png" },
-  { url: "../images/shapes.png" },
-  { url: "../images/head.png" },
-  { url: "../images/hand.png" },
+  { url: "https://picsum.photos/1280/800" },
+  { url: "https://picsum.photos/1280/850" },
+  { url: "https://picsum.photos/1280/840" },
+  { url: "https://picsum.photos/1280/830" },
+  { url: "https://picsum.photos/1280/820" },
 ]
+
+const ImageSliderStyle = { width: '100%', height: '100%'}
 
 const Hero = () => {
     return (
@@ -24,16 +26,15 @@ const Hero = () => {
           <p>&#8595;</p>
         </div>
 
-        
-
-        <div className="img-wrapper">
+        <div className="carousel-wrapper">
           <SimpleImageSlider
-          width={1280}
-          height={800}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-        />
+            style={{ position: "absolute", top: "0", right: "0" }}
+            width={ImageSliderStyle.width}
+            height={ImageSliderStyle.height}
+            images={images}
+            showBullets={true}
+            showNavs={true}
+          />
         </div>
 
         <div className="container cssanimation sequence fadeInBottom">

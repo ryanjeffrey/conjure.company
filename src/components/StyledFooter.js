@@ -1,40 +1,20 @@
 import React from 'react'
 import { Link } from "gatsby"
 
+import "./layout.css"
+import "./main.css"
 
 const StyledFooter = () => {
     return (
-      <div className="styled-footer"
-        style={{
-          display: "flex",
-          backgroundColor: "#121212",
-        }}
-      >
-        <footer
-          style={{
-            backgroundColor: "#121212",
-            color: "#F7F4F0",
-            padding: "0 0 48px 0",
-            margin: "0 auto",
-          }}
-        >
+      <div className="styled-footer">
+        <footer>
           <Link to="/contact"><p
-            style={{
-              textAlign: "center",
-              margin: "0",
-              padding: "0 0 120px 0",
-              fontFamily: "var(--main-font)",
-              fontSize: "248px",
-              lineHeight: "0.7"
-            }}
+            id="start-a-project"
           >
             start a project →
           </p></Link>
           <p
-            style={{
-              textAlign: "center",
-              margin: "0",
-            }}
+            id="footer-footer"
           >
             &copy; {new Date().getFullYear()} RSC CREATIVE LLC
             <br /> CHICAGO, ILLINOIS
