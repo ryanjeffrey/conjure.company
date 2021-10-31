@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
+import { FaGripLines, FaTimes } from "react-icons/fa"
+
 
 import "./layout.css"
 import "./main.css"
@@ -8,21 +10,38 @@ const navbar = () => {
     return (
       <div id="nav-outer">
         <nav>
-          <div id="nav-inner">
-            <Link to ="/"><h1>RSC</h1></Link>
+          <input type="checkbox" id="res-menu"></input>
+          <label for="res-menu">
+            <FaGripLines id="sign-one" />
+            <FaTimes id="sign-two" />
+          </label>
+
+          
+            <Link to="/">
+              <h1>RSC</h1>
+            </Link>
+
             <ul>
               <li>
-                <Link to="/work"><h2>Work</h2></Link>
+                <Link to="/work">
+                  <a>Work</a>
+                </Link>
               </li>
               <li>
-                <Link to="/about"><h2>About</h2></Link>
+                <Link to="/about">
+                  <a>About</a>
+                </Link>
               </li>
               <li>
-                <Link to="/contact"><h2>Contact</h2></Link>
+                <Link to="/contact">
+                  <a>Contact</a>
+                </Link>
               </li>
             </ul>
-          </div>
+          
         </nav>
+
+        
       </div>
     )
 }

@@ -13,8 +13,9 @@ const About = () => {
         <div className="container">
           <div className="about-wrapper cssanimation sequence fadeInBottom">
             <h2>We are a couple of designers and dreamers</h2>
+            </div>
 
-            <div className="img-wrapper">
+            <div className="">
               <StaticImage
                 src="../images/rsc-wedding-web.jpg"
                 className="hero-img"
@@ -28,7 +29,7 @@ const About = () => {
             </div>
           
           </div>
-        </div>
+        
       </Layout>
     </div>
   )

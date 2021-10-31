@@ -25,6 +25,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .all-content {
@@ -68,13 +70,13 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 
+
 nav {
-    display: flex;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 96px;
+    height: 80px;
     z-index: 99;
     background: var(--white);
     transition: background 350ms cubic-bezier(0, 0, 0.2, 1) 0s;
@@ -82,6 +84,58 @@ nav {
     will-change: background;
     overflow: hidden;
     /* border-bottom: 1px solid #F7F4F0; */
+}
+
+/* NEW NAV */
+
+nav h1 { 
+  padding: 24px;
+  color: var(--black);
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 24px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: var(--main-font);
+  font-size: 32px;
+  line-height: 40px;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 0 1vw;
+}
+
+nav ul li a {
+  position: relative;
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+label #sign-one, label #sign-two {
+  font-size: 24px;
+  float: right;
+  margin-top: 32px;
+  margin-right: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#res-menu {
+  display: none;
+}
+
+.banner-area {
+  background-color: green;
 }
 
 button {
@@ -101,6 +155,11 @@ button {
 button:hover {
   background-color: #8abea0;
 }
+
+
+
+
+
 
 .styled-footer {
   display: flex;
@@ -142,50 +201,13 @@ footer {
   margin: 0 auto;
 }
 
-#nav-inner {
-  display: flex;
-  width: 1280px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav h1 {
-  display: flex;
-  float: left;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  float: right;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-}
-
-li {
-  text-decoration: none;
-  white-space: nowrap;
-  margin: 0 1vw;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
 
 #hero-text {
   font-size: 12rem;
   text-align: left;
   line-height: .9;
-  margin-top: 112px;
+  margin-top: 160px;
   max-width: 1280px;
-  padding: 96px 0 24px 24px;
   word-wrap: normal;
 }
 
@@ -339,7 +361,12 @@ li {
 }
 
 
-
+.container, .card-container, .img-wrapper, .case-studies-text, .case-study {
+    padding: 24px;
+    margin: auto;
+    width: 100%;
+    max-width: 1232px;
+  }
 /********* WORK PAGE **********/
 
 .case-studies-text {
@@ -473,11 +500,11 @@ h6 {
 
 .about-wrapper h2 {
   font-size: 128px;
-  padding: 24px;
+  padding-bottom: 48px;
 }
 
 .about-wrapper img {
-  padding: 24px 0;
+  
 }
 
 .about-wrapper p {
@@ -512,9 +539,7 @@ h6 {
 }
 
 
-.container, .card-container, .img-wrapper, .case-studies-text, nav h1, .case-study {
-    padding: 24px;
-  }
+
 /************* DESKTOP BREAKPOINT ***************/
 @media only screen and (max-width: 1440px) {
   
@@ -523,6 +548,9 @@ h6 {
 
 /******** TABLET BREAKPOINT  ************/
 @media only screen and (max-width: 1000px) {
+  .all-content {
+    width: 100%;
+  }
   .half-wrapper {
     max-width: 768px;
     width: 100%;
@@ -532,9 +560,7 @@ h6 {
     width: 100%;
   }
 
-  #hero-text {
-    padding: 48px 0 24px 0px;
-  }
+
 
   #start-a-project {
     font-size: 160px;
@@ -543,58 +569,52 @@ h6 {
 
 }
 
-
-
-
-
-/************ MOBILE BREAKPOINT ***************/
-@media only screen and (max-width: 600px) {
-
-  
-  .all-content {
-    width: 100%;
+@media only screen and (max-width: 870px) {
+  label #sign-one {
+    display: block;
   }
 
-  .container {
-    padding: 24px;
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: var(--white);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: .7s;
+    z-index: 100;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 64px 0;
+    line-height: 64px;
+  }
+
+  nav ul li a {
+    font-size: 40px;
+  }
+
+  #res-menu:checked ~ ul{
+    left: 0;
+  }
+  #res-menu:checked ~ label #sign-one{
+    display: none;
+  }
+  #res-menu:checked ~ label #sign-two{
+    display: block;
   }
 
   #hero-text {
     font-size: 7rem;
   }
 
-  #hero-text h1 {
-    /* padding: 24px; */
-  }
-
-  .carousel-wrapper {
-    height: 600px;
-  }
-
   #equality h2 {
     padding: 48px 0 96px;
     font-size: 3rem;
   }
-
-  #start-a-project {
-    font-size: 96px;
-    padding: 24px;
-  }
-
   
-  nav {
-    height: 64px;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-  }
-
-  nav h1 {
-    font-size: 2rem;
-  }
-
-  nav ul {
-    display: none;
-  }
-
   .wrapper {
     display: block;
   }
@@ -608,9 +628,8 @@ h6 {
 
   .card-container h3, .case-studies-text h3 {
   font-size: 3rem;
-}
-
-
+  }
+  
   /* WORK PAGE */
   .grid-container {
     display: block;
@@ -627,5 +646,39 @@ h6 {
   .text-on-right {
   margin: 0;
 }
+}
+
+
+
+
+/************ MOBILE BREAKPOINT ***************/
+@media only screen and (max-width: 600px) {
+
+  
+  
+
+
+  #hero-text {
+    font-size: 6rem;
+  }
+
+  
+
+  .carousel-wrapper {
+    height: 600px;
+  }
+
+  
+
+  #start-a-project {
+    font-size: 96px;
+    padding: 24px;
+  }
+
+
+  
+
+
+  
 
 }
