@@ -92,7 +92,7 @@ nav h1 {
   padding: 24px;
   color: var(--black);
   float: left;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
   margin: 0;
 }
@@ -124,7 +124,7 @@ label #sign-one, label #sign-two {
   font-size: 24px;
   float: right;
   margin-top: 32px;
-  margin-right: 40px;
+  margin-right: 32px;
   line-height: 40px;
   cursor: pointer;
   display: none;
