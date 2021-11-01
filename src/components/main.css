@@ -528,7 +528,7 @@ h6 {
 }
 
 .about-wrapper h2 {
-  font-size: 96px;
+  font-size: 64px;
   padding-bottom: 48px;
 }
 
@@ -549,6 +549,9 @@ h6 {
   text-align: left;
 }
 
+.half-wrapper p span {
+  font-size: 24px;
+}
 
 
 /*********** Contact Page ***************/
