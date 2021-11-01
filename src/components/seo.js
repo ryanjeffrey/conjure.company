@@ -70,7 +70,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `og:image`,
-          content: "src/images/eye.jpg",
+          content: "../images/eye.jpg",
         },
       ].concat(meta)}
     />

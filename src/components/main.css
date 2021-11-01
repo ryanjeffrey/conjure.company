@@ -629,7 +629,7 @@ button[type="submit"] {
   border: none;
   background-color: var(--white);
   border-radius: 1em;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: background-color ease-in 200ms;
@@ -737,6 +737,10 @@ button[type="submit"]:hover {
     display: block;
   }
 
+  .grid-conainer img {
+    order: 3;
+  }
+
   .case-studies-text {
     margin-bottom: 0;
   }
@@ -751,6 +755,10 @@ button[type="submit"]:hover {
 
   .case-study {
     margin-bottom: 0;
+  }
+
+  .case-study .img-wrapper {
+    padding-top: 16px;
   }
 
   .case-study p {

@@ -58,7 +58,7 @@ const About = () => {
               detail–no matter how small.
               <br />
               <br />
-              Let’s create a better future together.
+              <span>Let’s create a better future together.</span>
             </p>
           </div>
         </div>
