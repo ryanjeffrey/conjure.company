@@ -10,8 +10,8 @@ const About = () => {
     <div>
       <Layout>
         <Seo title="About" />
-        <div className="container">
-          <div className="about-wrapper cssanimation sequence fadeInBottom">
+        <div className="container cssanimation sequence fadeInBottom">
+          <div className="about-wrapper ">
             <h2>
               Our team brings brands to life across digital experiences.
             </h2>

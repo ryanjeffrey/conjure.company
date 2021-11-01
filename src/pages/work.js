@@ -61,7 +61,7 @@ const work = () => {
                 <div className="item1">
                   <h6>INDIGO</h6>
                   <p id="designing">
-                    Designing an e-comm store for an established beauty brand
+                    Designing an ecomm store for an established beauty brand
                   </p>
                   <Link to="/indigo">
                     <p id="see-more">see more →</p>

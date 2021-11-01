@@ -13,7 +13,7 @@ const indigo = () => (
     <Seo title="INDIGO Case Study" />
     <div className="case-study cssanimation sequence fadeInBottom">
       <div className="half-wrapper">
-        <h6>Designing an e-comm store for an established beauty brand</h6>
+        <h6>Designing an ecomm store for an established beauty brand</h6>
       </div>
       <p>
         <a href="https://indigohaircare.com" target="_blank" rel="noreferrer">

@@ -213,8 +213,26 @@ footer {
   word-wrap: normal;
 }
 
+@keyframes downarrow {
+  0% { transform: translateY(0); opacity: 0.4}
+  100% { transform: translateY(0.4em); opacity: 0.9 }
+}
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
 .arrow {
   padding: 48px;
+  display:block;
+  margin:10em auto;
+  opacity:0.4;
+  transform-origin: 50% 50%;
+}
+
+.down {
+  animation: downarrow 0.9s infinite alternate ease-in-out;
+  -webkit-animation: downarrow 0.9s infinite alternate ease-in-out;
 }
 
 

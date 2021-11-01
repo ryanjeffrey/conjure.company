@@ -23,7 +23,7 @@ const Hero = () => {
             <br />
             business
           </h1>
-          <p className="arrow">&#8595;</p>
+          <p className="arrow down">&#8595;</p>
         </div>
 
         <div className="carousel-wrapper">
