@@ -69,6 +69,77 @@ const work = () => {
                 </div>
               </div>
             </div>
+
+            <div className="case-study-spacer"></div>
+
+            <div className="workflow-section">
+              <h3 id="workflow">Workflow</h3>
+                <div className="workflow-grid">
+                  <div className="workflow-grid-item">
+                    <span>01</span>
+                    <h4>Discover</h4>
+                    <p>
+                      Analytics Research
+                      <br />
+                      Digital Strategy
+                      <br />
+                      Persona Development
+                      <br />
+                      User Research
+                    </p>
+                  </div>
+
+                  <div className="workflow-grid-item">
+                    <span>02</span>
+                    <h4>Design</h4>
+                    <p>
+                      Content Creation
+                      <br />
+                      Interface Design (UI)
+                      <br />
+                      Motion Design
+                      <br />
+                      Prototyping
+                      <br />
+                      Usability Testing
+                      <br />
+                      User Experience (UX)
+                      <br />
+                      Wireframing
+                    </p>
+                  </div>
+                  <div className="workflow-grid-item">
+                    <span>03</span>
+                    <h4>Develop</h4>
+                    <p>
+                      API + SDK
+                      <br />
+                      AWS Hosting
+                      <br />
+                      CMS Integration
+                      <br />
+                      CRM Integration
+                      <br />
+                      Mobile Development
+                      <br />
+                      Web Development
+                    </p>
+                  </div>
+                  <div className="workflow-grid-item">
+                    <span>04</span>
+                    <h4>Deliver</h4>
+                    <p>
+                      Analytics + Reporting
+                      <br />
+                      Handoff + Training
+                      <br />
+                      Product Testing
+                      <br />
+                      Project Management
+                    </p>
+                  </div>
+              </div>
+            </div>
           </div>
         </Layout>
       </div>

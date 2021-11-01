@@ -186,6 +186,7 @@ footer {
 #footer-footer {
   text-align: center;
   margin: 0;
+  padding: 24px;
 }
 
 .container h1, h2, p{
@@ -440,6 +441,32 @@ footer {
   margin-left: 96px;
 }
 
+#workflow {
+  padding: 48px 0;
+}
+
+.workflow-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.workflow-grid-item {
+  display: inline-block;
+}
+
+.workflow-section p {
+  padding-bottom: 48px;
+}
+
+.workflow-section h4 {
+  padding-bottom: 8px;
+}
+
+.workflow-numbers p {
+  padding: 0;
+  margin: 0;
+}
+
 
 /*********** CAYA  *************/
 .case-study {
@@ -458,6 +485,7 @@ h6 {
 
 .case-study p {
   padding: 48px 0 0 0;
+  line-height: 1.6;
 }
 
 .case-study .img-wrapper {
@@ -500,7 +528,7 @@ h6 {
 }
 
 .about-wrapper h2 {
-  font-size: 128px;
+  font-size: 96px;
   padding-bottom: 48px;
 }
 
@@ -512,6 +540,15 @@ h6 {
   display: flex;
 }
 
+#bio {
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 24px 0;
+  text-align: left;
+}
+
 
 
 /*********** Contact Page ***************/
@@ -520,7 +557,7 @@ h6 {
   padding-bottom: 96px;
 }
 
-.contact-page h2, p {
+.contact-page h2, .contact-page p {
   padding: 24px;
 }
 
@@ -589,8 +626,8 @@ h6 {
 
   nav ul li {
     display: block;
-    margin: 64px 0;
-    line-height: 64px;
+    margin: 24px;
+    line-height: 40px;
   }
 
   nav ul li a {
@@ -636,6 +673,10 @@ h6 {
     display: block;
   }
 
+  .case-studies-text {
+    margin-bottom: 0;
+  }
+
   .case-studies-text h5 {
     font-size: 1.3rem;
   }
@@ -653,13 +694,24 @@ h6 {
   }
 
   .numbers {
-    padding: 24px 0;
+  
   }
 
   .text-on-right {
   margin: 0;
   }
 
+  .workflow-section h4 {
+  font-size: 32px;
+}
+
+  .workflow-grid {
+  display: block;
+}
+
+  .workflow-grid-item {
+    width: 100%;
+  }
 
   /* ABOUT PAGE */
   .about-wrapper h2 {

@@ -27,6 +27,10 @@ const About = () => {
                 id="caya"
               />
             </div>
+
+            <div className="half-wrapper">
+              <p id="bio">We're a team of growth-minded creatives whose mission is to make the internet a better place by designing and building beautiful websites for businesses. Simone currently manages projects at the Art Institute of Chicago.</p>
+            </div>
           
           </div>
         

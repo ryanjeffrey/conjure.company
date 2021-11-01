@@ -4,24 +4,25 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Hero from "../components/Hero"
-import Cards from "../components/cards"
+
 import "../components/main.css"
 import "../components/layout.css"
 
 const indigo = () => (
   <Layout>
     <Seo title="INDIGO Case Study" />
-    <div className="case-study">
+    <div className="case-study cssanimation sequence fadeInBottom">
       <div className="half-wrapper">
         <h6>Designing an e-comm store for an established beauty brand</h6>
       </div>
       <p>
-        INDIGO →
+        <a href="https://indigohaircare.com" target="_blank" rel="noreferrer">
+          INDIGO →
+        </a>
         <br />
         Timeline: 5 weeks
         <br />
-        KPIs: conversions, average order value, organic traffic
+        KPIs: revenue, average order value, conversion rate
       </p>
 
       <div className="img-wrapper">
@@ -40,31 +41,24 @@ const indigo = () => (
       <div className="half-wrapper">
         <h3>Challenge</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie
-          at elementum eu facilisis sed odio. Et egestas quis ipsum suspendisse
-          ultrices gravida dictum fusce. Tincidunt augue interdum velit euismod.
-          Consequat mauris nunc congue nisi. Duis ultricies lacus sed turpis
-          tincidunt id.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie
-          at elementum eu facilisis sed odio. Et egestas quis ipsum suspendisse
-          ultrices gravida dictum fusce. Tincidunt augue interdum velit euismod.
-          Consequat mauris nunc congue nisi. Duis ultricies lacus sed turpis
-          tincidunt id.
+          We partnered with INDIGO to reposition and evolve the brand to better
+          serve the next generation of beauty professionals. We did a deep dive
+          into the history of the brand, the competitive landscape, and how we
+          could best serve their current clients as well as future clients.
+          Through our brand strategy, visual identity, and art direction, we
+          arrived at a youthful, vibrant and contemporary identity appropriate
+          for this legendary brand.
         </p>
 
         <h3>Outcome</h3>
 
         <div className="numbers">
-          <h4>145</h4>
-          <p>qualified leads in the first 3 months</p>
-          <h4>94%</h4>
-          <p>bounce rate much lower than the industry benchmark</p>
-          <h4>12k</h4>
-          <p>unique organic users in the first 3 months</p>
+          <h4>110%</h4>
+          <p>increase in revenue (Q1 post-launch)</p>
+          <h4>$77.86</h4>
+          <p>average order value</p>
+          <h4>8.82%</h4>
+          <p>conversion rate more than double the industry benchmark of 3.8%</p>
         </div>
 
         <Link to="/caya">

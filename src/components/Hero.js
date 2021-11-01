@@ -32,7 +32,7 @@ const Hero = () => {
             width={ImageSliderStyle.width}
             height={ImageSliderStyle.height}
             images={images}
-            showBullets={true}
+            showBullets={false}
             showNavs={true}
           />
         </div>
