@@ -121,6 +121,7 @@ nav ul li a {
 }
 
 label #sign-one, label #sign-two {
+  color: var(--black);
   font-size: 24px;
   float: right;
   margin-top: 32px;
@@ -237,7 +238,7 @@ footer {
 .carousel-wrapper {
   margin: 0 auto;
   position: relative;
-  max-width: 1232px;
+  max-width: 1200px;
   height: 800px;
 }
 
@@ -626,7 +627,7 @@ h6 {
   }
 
 
-  .card-container h3, .case-studies-text h3 {
+  .card-container h3, .case-studies-text h3, .case-study h3 {
   font-size: 3rem;
   }
   
@@ -643,9 +644,33 @@ h6 {
   padding: 24px 0;
   }
 
+  .case-study {
+    margin-bottom: 0;
+  }
+
+  .case-study p {
+  padding: 24px 0;
+  }
+
+  .numbers {
+    padding: 24px 0;
+  }
+
   .text-on-right {
   margin: 0;
+  }
+
+
+  /* ABOUT PAGE */
+  .about-wrapper h2 {
+  font-size: 48px;
+  padding-bottom: 24px;
 }
+
+  footer {
+    padding: 0;
+  }
+
 }
 
 
