@@ -213,6 +213,10 @@ footer {
   word-wrap: normal;
 }
 
+.arrow {
+  padding: 48px;
+}
+
 
 .cssanimation, .cssanimation span {
     animation-duration: 0.7s;
@@ -528,7 +532,7 @@ h6 {
 }
 
 .about-wrapper h2 {
-  font-size: 64px;
+  font-size: 48px;
   padding-bottom: 48px;
 }
 
@@ -578,6 +582,45 @@ h6 {
   margin: 0 auto;
   display: flex;
 }
+input[type="text"],
+textarea,
+input[type="email"],
+input[type="tel"] {
+  background: #121212;
+  color: var(--white);
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  font-size: 1.1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: 1px solid var(--black);
+}
+textarea {
+  resize: none;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 2rem;
+  color: var(--black);
+  border: none;
+  background-color: var(--white);
+  border-radius: 1em;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color ease-in 200ms;
+}
+
+button[type="submit"]:hover {
+  background-color: #8abea0;
+}
+
 
 
 

@@ -13,21 +13,20 @@ const About = () => {
         <div className="container">
           <div className="about-wrapper cssanimation sequence fadeInBottom">
             <h2>
-              Our team brings brands to life across digital experiences. We craft optimized user experiences, stunning designs, and solid
-              development solutions for business websites.
+              Our team brings brands to life across digital experiences.
             </h2>
           </div>
 
           <div className="">
             <StaticImage
-              src="../images/rsc-wedding-web.jpg"
+              src="../images/rsc-web-2.jpg"
               className="hero-img"
-              width={640}
+              width={560}
               quality={100}
               margin={0}
               formats={["auto", "webp", "avif"]}
-              alt="caya wellness"
-              id="caya"
+              alt=""
+              id=""
             />
           </div>
 
