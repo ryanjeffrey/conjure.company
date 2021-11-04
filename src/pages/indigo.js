@@ -20,8 +20,6 @@ const indigo = () => (
           INDIGO →
         </a>
         <br />
-        Timeline: 5 weeks
-        <br />
         KPIs: revenue, average order value, conversion rate
       </p>
 

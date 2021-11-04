@@ -41,7 +41,7 @@ const Hero = () => {
           <div id="equality">
             <h2>
               We design bespoke web experiences for brands that embrace
-              Equality, sustainability, and positive social impact.
+              equality, sustainability, and positive social impact
             </h2>
 
             {/* <button>start a project</button> */}

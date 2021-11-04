@@ -49,13 +49,13 @@ h1 {
 }
 
 h2 {
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   font-weight: normal;
 }
 
 h3 {
-  font-family: var(--secondary-font);
-  font-size: 96px;
+  font-family: var(--main-font);
+  font-size: 64px;
   font-weight: normal;
 }
 
@@ -106,7 +106,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   font-size: 24px;
   line-height: 40px;
   text-decoration: none;
@@ -140,7 +140,7 @@ label #sign-one, label #sign-two {
 }
 
 button {
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   background-color: var(--white);
   color: var(--black);
   text-decoration: none;
@@ -327,7 +327,7 @@ footer {
 }
 
 #equality h2 {
-  font-size: 128px;
+  font-size: 64px;
   font-weight: normal;
   display: flex;
   align-items: center;
@@ -403,6 +403,10 @@ footer {
   margin: 0;
 }
 
+.case-studies-text h3 {
+  padding-bottom: 96px;
+}
+
 .case-studies-text h5 {
   font-weight: normal;
   font-family: var(--secondary-font);
@@ -421,8 +425,8 @@ footer {
 }
 
 #see-more {
-  font-family: var(--main-font);
-  font-size: 32px;
+  font-family: var(--secondary-font);
+  font-size: 24px;
 }
 
 .grid-container {
@@ -604,8 +608,8 @@ input[type="text"],
 textarea,
 input[type="email"],
 input[type="tel"] {
-  background: #121212;
-  color: var(--white);
+  background: var(--white);
+  color: var(--black);
   border: none;
   padding: 1rem;
   margin: 0.5rem 0;
@@ -613,11 +617,12 @@ input[type="tel"] {
   font-size: 1.1rem;
   width: 100%;
   box-sizing: border-box;
+  outline: 1px solid var(--black);
 }
 
 input[type="text"]:focus,
 textarea:focus {
-  outline: 1px solid var(--black);
+  
 }
 textarea {
   resize: none;
@@ -761,9 +766,6 @@ button[type="submit"]:hover {
     padding-top: 16px;
   }
 
-  .case-study p {
-  padding: 24px 0;
-  }
 
   .numbers {
   

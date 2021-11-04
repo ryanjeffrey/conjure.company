@@ -13,14 +13,14 @@ const work = () => {
           <Seo title="Work" />
           <div className="case-studies-text cssanimation sequence fadeInBottom">
             <h3>Case Studies</h3>
-            <h5>Selected digital experiences</h5>
+            
 
             <div className="grid-container">
               <div className="item1">
                 <h6>CAYA</h6>
                 <p id="designing">Designing and launching a telehealth brand</p>
                 <Link to="/caya">
-                  <p id="see-more">see more →</p>
+                  <p id="see-more">SEE CASE STUDY →</p>
                 </Link>
               </div>
 
@@ -64,7 +64,7 @@ const work = () => {
                     Designing an ecomm store for an established beauty brand
                   </p>
                   <Link to="/indigo">
-                    <p id="see-more">see more →</p>
+                    <p id="see-more">SEE CASE STUDY →</p>
                   </Link>
                 </div>
               </div>
@@ -74,70 +74,70 @@ const work = () => {
 
             <div className="workflow-section">
               <h3 id="workflow">Workflow</h3>
-                <div className="workflow-grid">
-                  <div className="workflow-grid-item">
-                    <span>01</span>
-                    <h4>Discover</h4>
-                    <p>
-                      Analytics Research
-                      <br />
-                      Digital Strategy
-                      <br />
-                      Persona Development
-                      <br />
-                      User Research
-                    </p>
-                  </div>
+              <div className="workflow-grid">
+                <div className="workflow-grid-item">
+                  <span>01</span>
+                  <h4>Discover</h4>
+                  <p>
+                    Analytics Research
+                    <br />
+                    Digital Strategy
+                    <br />
+                    Persona Development
+                    <br />
+                    User Research
+                  </p>
+                </div>
 
-                  <div className="workflow-grid-item">
-                    <span>02</span>
-                    <h4>Design</h4>
-                    <p>
-                      Content Creation
-                      <br />
-                      Interface Design (UI)
-                      <br />
-                      Motion Design
-                      <br />
-                      Prototyping
-                      <br />
-                      Usability Testing
-                      <br />
-                      User Experience (UX)
-                      <br />
-                      Wireframing
-                    </p>
-                  </div>
-                  <div className="workflow-grid-item">
-                    <span>03</span>
-                    <h4>Develop</h4>
-                    <p>
-                      API + SDK
-                      <br />
-                      AWS Hosting
-                      <br />
-                      CMS Integration
-                      <br />
-                      CRM Integration
-                      <br />
-                      Mobile Development
-                      <br />
-                      Web Development
-                    </p>
-                  </div>
-                  <div className="workflow-grid-item">
-                    <span>04</span>
-                    <h4>Deliver</h4>
-                    <p>
-                      Analytics + Reporting
-                      <br />
-                      Handoff + Training
-                      <br />
-                      Product Testing
-                      <br />
-                      Project Management
-                    </p>
-                  </div>
+                <div className="workflow-grid-item">
+                  <span>02</span>
+                  <h4>Design</h4>
+                  <p>
+                    Content Creation
+                    <br />
+                    Interface Design (UI)
+                    <br />
+                    Motion Design
+                    <br />
+                    Prototyping
+                    <br />
+                    Usability Testing
+                    <br />
+                    User Experience (UX)
+                    <br />
+                    Wireframing
+                  </p>
+                </div>
+                <div className="workflow-grid-item">
+                  <span>03</span>
+                  <h4>Develop</h4>
+                  <p>
+                    API + SDK
+                    <br />
+                    AWS Hosting
+                    <br />
+                    CMS Integration
+                    <br />
+                    CRM Integration
+                    <br />
+                    Mobile Development
+                    <br />
+                    Web Development
+                  </p>
+                </div>
+                <div className="workflow-grid-item">
+                  <span>04</span>
+                  <h4>Deliver</h4>
+                  <p>
+                    Analytics + Reporting
+                    <br />
+                    Handoff + Training
+                    <br />
+                    Product Testing
+                    <br />
+                    Project Management
+                  </p>
+                </div>
               </div>
             </div>
           </div>

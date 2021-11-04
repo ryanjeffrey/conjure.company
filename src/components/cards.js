@@ -6,7 +6,7 @@ const cards = () => {
     return (
       <div>
           <div className="card-container">
-            <h3>What we do</h3>
+            <h3>What We Do</h3>
             <div className="wrapper">
             <div className="card1">
                 <StaticImage
@@ -19,8 +19,7 @@ const cards = () => {
                 />
                 <h4>Digital Strategy</h4>
                 <p>
-                Growth is only a concept unless you have something to measure. We
-                take a strategic approach that delivers results.
+                We start by listening to gain understanding. Your pain is our pain, so we collaborate to craft a plan that delivers results.
                 </p>
             </div>
 
@@ -35,9 +34,7 @@ const cards = () => {
                 />
                 <h4>Design</h4>
                 <p>
-                What does a brand feel like on a screen? That’s User Experience,
-                or UX for short. We tailor a custom solution to maximize
-                conversion.
+                What does a brand feel like on a screen? We tailor custom, user-first design solutions to make our websites effortless.
                 </p>
             </div>
 
@@ -52,9 +49,7 @@ const cards = () => {
                 />
                 <h4>Development</h4>
                 <p>
-                We build websites using React so they load quickly and perform
-                excellently. Our team takes care of the technical stuff so you can
-                do what you do best.
+                We build websites using state-of-the-art technology so your website outperforms your competitors.
                 </p>
             </div>
             </div>

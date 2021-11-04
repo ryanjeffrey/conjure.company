@@ -20,8 +20,6 @@ const caya = () => (
           CAYA →
         </a>
         <br />
-        Timeline: 8 weeks
-        <br />
         KPIs: qualified leads, bounce rate, organic traffic
       </p>
 
