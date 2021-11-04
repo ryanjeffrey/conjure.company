@@ -1,16 +1,7 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import SimpleImageSlider from "react-simple-image-slider"
 
-const images = [
-  { url: "https://picsum.photos/1280/800" },
-  { url: "https://picsum.photos/1280/850" },
-  { url: "https://picsum.photos/1280/840" },
-  { url: "https://picsum.photos/1280/830" },
-  { url: "https://picsum.photos/1280/820" },
-]
 
-const ImageSliderStyle = { width: '100%', height: '100%'}
 
 const Hero = () => {
     return (
@@ -26,14 +17,16 @@ const Hero = () => {
           <p className="arrow down">&#8595;</p>
         </div>
 
-        <div className="carousel-wrapper">
-          <SimpleImageSlider
-            style={{ position: "absolute", top: "0", right: "0" }}
-            width={ImageSliderStyle.width}
-            height={ImageSliderStyle.height}
-            images={images}
-            showBullets={false}
-            showNavs={true}
+        <div className="img-wrapper">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/mockup-mobile-multi.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="indigo hair care"
+            id="indigo"
           />
         </div>
 
