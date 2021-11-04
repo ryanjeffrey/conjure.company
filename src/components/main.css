@@ -552,9 +552,7 @@ h6 {
   grid-gap: 24px;
 }
 
-.case-study-grid img {
-  object-fit: cover;
-}
+
 
 .grid-item-full {
   grid-column: span 2;
@@ -792,7 +790,7 @@ button[type="submit"]:hover {
     display: block;
   }
 
-  .case-study-grid img {
+  .grid-item-full, .grid-item-half {
     padding-bottom: 24px;
   }
 
