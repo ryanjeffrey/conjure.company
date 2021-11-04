@@ -510,7 +510,7 @@ h6 {
 }
 
 .case-study p {
-  padding: 48px 0 0 0;
+  padding: 24px 0 0 0;
   line-height: 1.6;
 }
 
@@ -533,7 +533,7 @@ h6 {
 }
 
 .numbers {
-  padding: 48px 0;
+  padding: 24px 0;
 }
 
 .numbers h4 {
@@ -546,6 +546,23 @@ h6 {
   padding: 0 0 24px 0;
 }
 
+.case-study-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 24px;
+}
+
+.case-study-grid img {
+  object-fit: cover;
+}
+
+.grid-item-full {
+  grid-column: span 2;
+}
+
+.grid-item-half {
+  grid-column: span 1;
+}
 
 
 /*********** About Page ***************/
@@ -769,6 +786,14 @@ button[type="submit"]:hover {
 
   .numbers {
   
+  }
+
+  .case-study-grid {
+    display: block;
+  }
+
+  .case-study-grid img {
+    padding-bottom: 24px;
   }
 
   .text-on-right {

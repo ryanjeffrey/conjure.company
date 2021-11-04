@@ -25,9 +25,9 @@ const caya = () => (
 
       <div className="img-wrapper">
         <StaticImage
-          src="../images/caya-hero.png"
+          src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-laptop.png"
           className="hero-img"
-          width={640}
+          width={1280}
           quality={100}
           margin={0}
           formats={["auto", "webp"]}
@@ -59,7 +59,115 @@ const caya = () => (
           <h4>12k</h4>
           <p>unique organic users in the first 3 months</p>
         </div>
+      </div>
 
+      <div className="case-study-grid">
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-services.PNG"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-home2.PNG"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-full">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-phones2.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-home3.PNG"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-home4.PNG"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-full">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-desktop.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-client-cropped.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-contact.PNG"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+      </div>
+
+      <div className="half-wrapper">
         <Link to="/indigo">
           <p>Next →</p>
         </Link>
