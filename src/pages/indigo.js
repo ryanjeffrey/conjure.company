@@ -54,7 +54,7 @@ const indigo = () => (
           <h4>110%</h4>
           <p>increase in revenue (Q1 post-launch)</p>
           <h4>$77.86</h4>
-          <p>average order value</p>
+          <p>average order value, an increase of 56%</p>
           <h4>8.82%</h4>
           <p>conversion rate more than double the industry benchmark of 3.8%</p>
         </div>

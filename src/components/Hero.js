@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="container cssanimation sequence fadeInBottom">
           <div id="equality">
             <h2>
-              We design bespoke web experiences for brands that embrace
+              We design + develop custom websites for brands that embrace
               equality, sustainability, and positive social impact
             </h2>
 
