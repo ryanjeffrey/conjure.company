@@ -25,14 +25,14 @@ const indigo = () => (
 
       <div className="img-wrapper">
         <StaticImage
-          src="../images/indigo-hero.png"
+          src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-laptop.png"
           className="hero-img"
-          width={640}
+          width={1280}
           quality={100}
           margin={0}
           formats={["auto", "webp"]}
           alt="indigo hair care"
-          id="indigo"
+          id="caya"
         />
       </div>
 
@@ -58,9 +58,117 @@ const indigo = () => (
           <h4>8.82%</h4>
           <p>conversion rate more than double the industry benchmark of 3.8%</p>
         </div>
+      </div>
 
+      <div className="case-study-grid">
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-model1.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-shampoo.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-full">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-phones.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-wrapture.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-model2.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-full">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-desktop2.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-model3.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+
+        <div className="grid-item-half">
+          <StaticImage
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-glo.png"
+            className="hero-img"
+            width={1280}
+            quality={100}
+            margin={0}
+            formats={["auto", "webp"]}
+            alt="caya wellness"
+            id="caya"
+          />
+        </div>
+      </div>
+
+      <div className="button-container">
         <Link to="/caya">
-          <p>← Previous</p>
+          <button className="case-study-btn">← Previous</button>
         </Link>
       </div>
     </div>

@@ -13,14 +13,13 @@ const work = () => {
           <Seo title="Work" />
           <div className="case-studies-text cssanimation sequence fadeInBottom">
             <h3>Case Studies</h3>
-            
 
             <div className="grid-container">
               <div className="item1">
                 <h6>CAYA</h6>
                 <p id="designing">Designing and launching a telehealth brand</p>
                 <Link to="/caya">
-                  <p id="see-more">SEE CASE STUDY →</p>
+                  <button id="see-more">See Case Study →</button>
                 </Link>
               </div>
 
@@ -64,7 +63,7 @@ const work = () => {
                     Designing an ecomm store for an established beauty brand
                   </p>
                   <Link to="/indigo">
-                    <p id="see-more">SEE CASE STUDY →</p>
+                    <button id="see-more">See Case Study →</button>
                   </Link>
                 </div>
               </div>

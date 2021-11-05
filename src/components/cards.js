@@ -9,14 +9,6 @@ const cards = () => {
             <h3>What We Do</h3>
             <div className="wrapper">
             <div className="card1">
-                <StaticImage
-                src="../images/head.jpg"
-                className="hero-img"
-                width={1096}
-                quality={100}
-                formats={["auto", "webp"]}
-                alt="indigo hair care"
-                />
                 <h4>Digital Strategy</h4>
                 <p>
                 We start by listening to gain understanding. Your pain is our pain, so we collaborate to craft a plan that delivers results.
@@ -24,14 +16,6 @@ const cards = () => {
             </div>
 
             <div className="card2">
-                <StaticImage
-                src="../images/eye.jpg"
-                className="hero-img"
-                width={1096}
-                quality={100}
-                formats={["auto", "webp"]}
-                alt="indigo hair care"
-                />
                 <h4>Design</h4>
                 <p>
                 What does a brand feel like on a screen? We tailor custom, user-first design solutions to make our websites effortless.
@@ -39,14 +23,6 @@ const cards = () => {
             </div>
 
             <div className="card3">
-                <StaticImage
-                src="../images/shapes.jpg"
-                className="hero-img"
-                width={1096}
-                quality={100}
-                formats={["auto", "webp"]}
-                alt="indigo hair care"
-                />
                 <h4>Development</h4>
                 <p>
                 We build websites using state-of-the-art technology so your website outperforms your competitors.

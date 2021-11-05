@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   font-size: 64px;
   font-weight: normal;
 }
@@ -147,14 +147,15 @@ button {
   font-size: 40px;
   border: 1px solid var(--black);
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  padding: 0px 24px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+  border-radius: none;
+  padding: 16px 32px;
   transition: all 0.6s ease-in-out;
 }
 
 button:hover {
-  background-color: #8abea0;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 
@@ -338,11 +339,7 @@ footer {
 }
 
 
-.card-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 96px 0;
-}
+
 
 .card-container h3 {
   margin: 0;
@@ -356,14 +353,13 @@ footer {
 }
 
 .wrapper p {
-  padding: 0 32px 32px 32px;
   font-size: 20px;
 }
 
 .wrapper h4 {
-  padding: 64px 32px 32px 32px;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 32px;
+  padding-bottom: 16px;
 }
 
 .card1,
@@ -384,6 +380,12 @@ footer {
   grid-column: col-start 9 / span 4;
 }
 
+  .card-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
 
 .container, .card-container, .img-wrapper, .case-studies-text, .case-study {
     padding: 24px;
@@ -391,6 +393,11 @@ footer {
     width: 100%;
     max-width: 1232px;
   }
+  
+  .card-container {
+    padding-bottom: 96px;
+  }
+
 /********* WORK PAGE **********/
 
 .case-studies-text {
@@ -422,6 +429,7 @@ footer {
 
 #designing {
   font-size: 40px;
+  padding-bottom: 48px;
 }
 
 #see-more {
@@ -562,6 +570,13 @@ h6 {
   grid-column: span 1;
 }
 
+.case-study-btn {
+  font-size: 16px;
+}
+
+.button-container {
+  padding-top: 96px;
+}
 
 /*********** About Page ***************/
 .about-wrapper, .contact-page {

@@ -64,7 +64,7 @@ const caya = () => (
       <div className="case-study-grid">
         <div className="grid-item-half">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-services.PNG"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-client-cropped.png"
             className="hero-img"
             width={1280}
             quality={100}
@@ -77,7 +77,7 @@ const caya = () => (
 
         <div className="grid-item-half">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-home2.PNG"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-gradient-logo.png"
             className="hero-img"
             width={1280}
             quality={100}
@@ -103,7 +103,7 @@ const caya = () => (
 
         <div className="grid-item-half">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-home3.PNG"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-cropped-tablet.png"
             className="hero-img"
             width={1280}
             quality={100}
@@ -116,46 +116,7 @@ const caya = () => (
 
         <div className="grid-item-half">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-home4.PNG"
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="caya wellness"
-            id="caya"
-          />
-        </div>
-
-        <div className="grid-item-full">
-          <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-desktop.png"
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="caya wellness"
-            id="caya"
-          />
-        </div>
-
-        <div className="grid-item-half">
-          <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-client-cropped.png"
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="caya wellness"
-            id="caya"
-          />
-        </div>
-
-        <div className="grid-item-half">
-          <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-tablet-contact.PNG"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-contact-img.png"
             className="hero-img"
             width={1280}
             quality={100}
@@ -167,9 +128,9 @@ const caya = () => (
         </div>
       </div>
 
-      <div className="half-wrapper">
+      <div className="button-container">
         <Link to="/indigo">
-          <p>Next →</p>
+          <button className="case-study-btn">Next →</button>
         </Link>
       </div>
     </div>
