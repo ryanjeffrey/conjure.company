@@ -421,7 +421,7 @@ footer {
 }
 
 .case-studies-text h3 {
-  padding-bottom: 96px;
+  padding-bottom: 24px;
 }
 
 .case-studies-text h5 {
@@ -689,7 +689,9 @@ button[type="submit"] {
   font-size: 20px;
 }
 
-
+.contact-page-form {
+  margin-top: 112px;
+}
 
 /************* DESKTOP BREAKPOINT ***************/
 @media only screen and (max-width: 1440px) {
@@ -766,6 +768,10 @@ button[type="submit"] {
     font-size: 3rem;
   }
   
+  .button-container {
+    padding-top: 0;
+  }
+
   .wrapper {
     display: block;
   }
@@ -800,6 +806,10 @@ button[type="submit"] {
     margin-bottom: 0;
   }
 
+  .case-studies-text h3 {
+    padding-bottom: 0;
+  }
+
 .text-on-right {
   justify-content: left;
 }
@@ -809,7 +819,7 @@ button[type="submit"] {
   }
 
   .grid-container .img-wrapper {
-  padding: 24px 0;
+    padding: 24px 0;
   }
 
   .case-study {
@@ -884,7 +894,7 @@ button[type="submit"] {
   
 
   #start-a-project {
-    font-size: 96px;
+    font-size: 80px;
     padding: 24px;
   }
 
