@@ -15,18 +15,10 @@ const work = () => {
             <h3>Case Studies</h3>
 
             <div className="grid-container">
-              <div className="item1">
-                <h6>CAYA</h6>
-                <p id="designing">Designing and launching a telehealth brand</p>
-                <Link to="/caya">
-                  <button id="see-more">See Case Study →</button>
-                </Link>
-              </div>
-
-              <div className="item2">
+              <div className="item2 flip">
                 <div className="img-wrapper">
                   <StaticImage
-                    src="../images/caya-home-page.png"
+                    src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-laptop.png"
                     className="hero-img"
                     width={1096}
                     quality={60}
@@ -36,6 +28,18 @@ const work = () => {
                   />
                 </div>
               </div>
+              
+              <div className="item1 text-on-right">
+                <h6>CAYA</h6>
+                <p id="designing">Designing and launching a telehealth brand</p>
+                
+                
+                <Link to="/caya">
+                  <button id="see-more">See Case Study →</button>
+                </Link>
+              </div>
+
+              
             </div>
 
             <div className="case-study-spacer"></div>
@@ -45,7 +49,7 @@ const work = () => {
               <div className="item2">
                 <div className="img-wrapper">
                   <StaticImage
-                    src="../images/indigo-home.png"
+                    src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-laptop.png"
                     className="hero-img"
                     width={1096}
                     quality={100}
@@ -62,6 +66,7 @@ const work = () => {
                   <p id="designing">
                     Designing an ecomm store for an established beauty brand
                   </p>
+                  
                   <Link to="/indigo">
                     <button id="see-more">See Case Study →</button>
                   </Link>

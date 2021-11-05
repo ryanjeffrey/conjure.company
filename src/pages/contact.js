@@ -109,9 +109,9 @@ export default function Contact() {
             </label>
           </p>
           <p>
-            <Link to="/thanks">
-              <button type="submit">Let's get started →</button>
-            </Link>
+          
+            <button type="submit">Let's get started →</button>
+            
           </p>
         </form>
       </div>

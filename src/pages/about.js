@@ -38,24 +38,17 @@ const About = () => {
               and collaborating on projects in music, art, ecommerce and digital
               experiences. <br />
               <br />
-              <span>Results</span> <br />
-              We partner with businesses to craft the visual language that will
-              define their social impact. Our approach to design is strategic,
-              goals-oriented, and in full service to the success of our clients.{" "}
-              <br />
-              <br />
+              
               <span>Process</span> <br />
               We believe a brand’s core values are essential to its design. Our
               strategy-first process ensures seamless collaboration, ample
               communication, actionable feedback, and bespoke design work.{" "}
               <br />
               <br />
-              <span>Commitment</span>
-              <br />
-              We know that great ideas are just one part of the creative
-              challenge; bringing it all to life is the other. Our respect for
-              the craft means we are consistently meticulous, and consider every
-              detail–no matter how small.
+              <span>Results</span> <br />
+              We partner with businesses to craft the visual language that will
+              define their social impact. Our approach to design is strategic,
+              goals-oriented, and in full service to the success of our clients.{" "}
               <br />
               <br />
               <span>Let’s create a better future together.</span>

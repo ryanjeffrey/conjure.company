@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   font-family: var(--secondary-font);
-  font-size: 64px;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -107,7 +107,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-family: var(--secondary-font);
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   text-decoration: none;
   white-space: nowrap;
@@ -144,7 +144,7 @@ button {
   background-color: var(--white);
   color: var(--black);
   text-decoration: none;
-  font-size: 40px;
+  font-size: 20px;
   border: 1px solid var(--black);
   cursor: pointer;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
@@ -178,9 +178,9 @@ footer {
 #start-a-project {
   text-align: center;
   margin: 0;
-  padding: 48px 0 120px 0;
+  padding: 48px 0 48px 0;
   font-family: var(--main-font);
-  font-size: 248px;
+  font-size: 160px;
   line-height: 0.7;
 }
 
@@ -354,12 +354,12 @@ footer {
 }
 
 .wrapper p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .wrapper h4 {
   font-weight: normal;
-  font-size: 40px;
+  font-size: 24px;
   padding-bottom: 16px;
 }
 
@@ -379,6 +379,15 @@ footer {
 
 .card3 {
   
+}
+
+.cards {
+  
+}
+
+.cards h4 {
+  font-size: 16px;
+  padding-bottom: 24px;
 }
 
   .card-container {
@@ -425,17 +434,17 @@ footer {
 .case-studies-text h6 {
   font-weight: normal;
   font-family: var(--secondary-font);
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #designing {
-  font-size: 40px;
+  font-size: 24px;
   padding-bottom: 48px;
 }
 
 #see-more {
   font-family: var(--secondary-font);
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .grid-container {
@@ -452,6 +461,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: left;
+
 }
 
 .item1 p {
@@ -472,7 +482,7 @@ footer {
 .text-on-right {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   margin-left: 96px;
 }
 
@@ -548,7 +558,7 @@ h6 {
 .numbers h4 {
   font-family: var(--main-font);
   font-weight: normal;
-  font-size: 96px;
+  font-size: 64px;
 }
 
 .numbers p {
@@ -585,7 +595,7 @@ h6 {
 }
 
 .about-wrapper h2 {
-  font-size: 48px;
+  font-size: 24px;
   padding-bottom: 48px;
 }
 
@@ -622,7 +632,7 @@ h6 {
 }
 
 .contact-page h2 {
-  font-size: 80px;
+  font-size: 40px;
 }
 
 .contact-page p {
@@ -734,7 +744,7 @@ button[type="submit"] {
   }
 
   nav ul li a {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   #res-menu:checked ~ ul{
@@ -770,9 +780,7 @@ button[type="submit"] {
     padding-bottom: 0;
   }
 
-  .card-container h3, .case-studies-text h3, .case-study h3 {
-  font-size: 3rem;
-  }
+  
 
   .card-container h4 {
     font-size: 32px;
@@ -780,18 +788,21 @@ button[type="submit"] {
   
   /* WORK PAGE */
   .grid-container {
-    display: block;
+    display: grid;
+    grid-template-columns: 100%;
   }
 
-  .grid-conainer img {
-    order: 3;
+  .item2 .flip {
+    order: -1;
   }
 
   .case-studies-text {
     margin-bottom: 0;
   }
 
-
+.text-on-right {
+  justify-content: left;
+}
 
   .case-studies-text h5 {
     font-size: 1.3rem;

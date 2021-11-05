@@ -5,25 +5,23 @@ import { StaticImage } from "gatsby-plugin-image"
 const cards = () => {
     return (
       <div>
-          <div className="card-container">
+          <div className="container cards">
             <h3>What We Do</h3>
-            <div className="wrapper">
-
-            <div className="card1">
-                <h4>Design</h4>
-                <p>
+            
+                <h3>Design</h3>
+                <h4>
                 What does a brand feel like on a screen? We tailor custom, user-first design solutions to make our websites effortless.
-                </p>
-            </div>
+                </h4>
+            
 
-            <div className="card2">
-                <h4>Develop</h4>
-                <p>
+            
+                <h3>Develop</h3>
+                <h4>
                 We build websites using state-of-the-art technology so your website outperforms your competitors.
-                </p>
+                </h4>
             </div>
-            </div>
-        </div>
+            
+        
       </div>
     )
 }

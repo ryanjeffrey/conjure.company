@@ -77,7 +77,7 @@ const caya = () => (
 
         <div className="grid-item-half">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-gradient-logo.png"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-logo-words.png"
             className="hero-img"
             width={1280}
             quality={100}
