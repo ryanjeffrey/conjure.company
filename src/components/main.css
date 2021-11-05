@@ -188,6 +188,7 @@ footer {
   text-align: center;
   margin: 0;
   padding: 24px;
+  font-size: 12px;
 }
 
 .container h1, h2, p{
@@ -348,7 +349,7 @@ footer {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-columns: auto auto;
   gap: 48px;
 }
 
@@ -358,7 +359,7 @@ footer {
 
 .wrapper h4 {
   font-weight: normal;
-  font-size: 32px;
+  font-size: 40px;
   padding-bottom: 16px;
 }
 
@@ -369,15 +370,15 @@ footer {
 }
 
 .card1 {
-  grid-column: col-start 1 / span 4;
+  
 }
 
 .card2 {
-  grid-column: col-start 5 / span 4;
+  
 }
 
 .card3 {
-  grid-column: col-start 9 / span 4;
+  
 }
 
   .card-container {
@@ -658,7 +659,7 @@ textarea {
   resize: none;
 }
 
-button[type="submit"] {
+/* button[type="submit"] {
   padding: 0.5rem 2rem;
   color: var(--black);
   border: none;
@@ -672,8 +673,11 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #8abea0;
-}
+} */
 
+button[type="submit"] {
+  font-size: 20px;
+}
 
 
 
@@ -762,9 +766,16 @@ button[type="submit"]:hover {
     padding-bottom: 96px;
   }
 
+  .card-container {
+    padding-bottom: 0;
+  }
 
   .card-container h3, .case-studies-text h3, .case-study h3 {
   font-size: 3rem;
+  }
+
+  .card-container h4 {
+    font-size: 32px;
   }
   
   /* WORK PAGE */
@@ -779,6 +790,8 @@ button[type="submit"]:hover {
   .case-studies-text {
     margin-bottom: 0;
   }
+
+
 
   .case-studies-text h5 {
     font-size: 1.3rem;

@@ -110,7 +110,7 @@ export default function Contact() {
           </p>
           <p>
             <Link to="/thanks">
-              <button type="submit">Let's get started</button>
+              <button type="submit">Let's get started →</button>
             </Link>
           </p>
         </form>
