@@ -171,7 +171,6 @@ button:hover {
 footer {
   background-color: #121212;
   color: #F7F4F0;
-  padding: 0 0 48px 0;
   margin: 0 auto;
 }
 
@@ -689,9 +688,7 @@ button[type="submit"] {
   font-size: 20px;
 }
 
-.contact-page-form {
-  margin-top: 112px;
-}
+
 
 /************* DESKTOP BREAKPOINT ***************/
 @media only screen and (max-width: 1440px) {
@@ -861,7 +858,6 @@ button[type="submit"] {
 
   /* ABOUT PAGE */
   .about-wrapper h2 {
-  font-size: 48px;
   padding-bottom: 24px;
 }
 

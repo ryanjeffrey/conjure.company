@@ -1,5 +1,5 @@
 import React from "react"
-import { Widget } from "@typeform/embed-react"
+import { Link } from "gatsby"
 
 
 import "../components/main.css"
@@ -9,12 +9,15 @@ import "../components/layout.css"
 
 const contact = () => {
   return (
-    <div className="">
-        <Widget
-        id="nnsu9acd"
-        style={{ width: "100vw", height: "100vh", margin: "0 auto" }}
-        className="my-form"
-      />
+    <div className="container">
+      <h1 style={{ fontWeight: "bold", fontSize: "32px" }}>RSC</h1>
+      <h2 style={{ paddingTop: "24px", fontSize: "16px" }}>Inquiries</h2>
+      <h2 style={{ paddingBottom: "24px", fontSize: "24px" }}>
+        hello@rsc-creative.com
+      </h2>
+      <Link to="/">
+        <button>Home →</button>
+      </Link>
     </div>
   )
 }
