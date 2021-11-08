@@ -118,6 +118,11 @@ nav ul li a {
   position: relative;
   padding: 8px 0;
   text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: rgb(145, 145, 145);
 }
 
 label #sign-one, label #sign-two {
@@ -177,10 +182,15 @@ footer {
 #start-a-project {
   text-align: center;
   margin: 0;
-  padding: 48px 0 48px 0;
+  padding: 24px;
   font-family: var(--main-font);
-  font-size: 160px;
+  font-size: 80px;
   line-height: 0.7;
+  transition: all 0.6s ease-in-out;
+}
+
+#start-a-project:hover {
+  color: #ceeb7a;
 }
 
 #footer-footer {
@@ -711,11 +721,6 @@ button[type="submit"] {
   }
 
 
-
-  #start-a-project {
-    font-size: 160px;
-    padding: 24px;
-  }
 
 }
 

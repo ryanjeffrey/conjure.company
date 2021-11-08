@@ -12,7 +12,6 @@ const work = () => {
         <Layout>
           <Seo title="Work" />
           <div className="case-studies-text cssanimation sequence fadeInBottom">
-            <h3>Case Studies</h3>
 
             <div className="grid-container">
               <div className="item2 flip">
