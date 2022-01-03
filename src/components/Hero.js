@@ -7,13 +7,11 @@ const Hero = () => {
     return (
       <div>
         <div className="container cssanimation sequence fadeInBottom">
-          <h1 id="hero-text">
-            Websites
+          <h2 id="hero-text" className="">
+            <span>conjure</span> is a development studio.
             <br />
-            for
-            <br />
-            business
-          </h1>
+            we partner with design agencies to develop extraordinary digital products. 
+          </h2>
           <p className="arrow down">&#8595;</p>
         </div>
 
@@ -32,10 +30,7 @@ const Hero = () => {
 
         <div className="container cssanimation sequence fadeInBottom">
           <div id="equality">
-            <h2>
-              We design + develop custom websites for brands that embrace
-              equality, sustainability, and positive social impact
-            </h2>
+            
 
             {/* <button>start a project</button> */}
           </div>

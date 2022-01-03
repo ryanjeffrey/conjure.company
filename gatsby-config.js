@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `RSC`,
-    description: `Custom website design and development based in Chicago`,
+    title: `conjure`,
+    description: `Web development studio based in Chicago`,
     author: `Ryan Jeffrey Smith`,
     siteUrl: `https://rsc-creative.com`,
   },

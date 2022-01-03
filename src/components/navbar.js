@@ -18,7 +18,7 @@ const navbar = () => {
 
           
             <Link to="/">
-              <h1>RSC</h1>
+              <h1 id="logo">conjure</h1>
             </Link>
 
             <ul>

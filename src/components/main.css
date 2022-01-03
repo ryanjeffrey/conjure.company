@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
 @font-face {
   font-family: "Voyage";
@@ -12,7 +13,7 @@
 }
 
 :root {
-    --main-font: 'Voyage', Georgia, 'Times New Roman', Times, serif;
+    --main-font: 'Odibee Sans', cursive;
     --secondary-font: 'Questrial', Arial, Helvetica, sans-serif;
     
     --black: #121212;
@@ -184,7 +185,7 @@ footer {
   margin: 0;
   padding: 24px;
   font-family: var(--main-font);
-  font-size: 80px;
+  font-size: 40px;
   line-height: 0.7;
   transition: all 0.6s ease-in-out;
 }
@@ -214,14 +215,53 @@ footer {
   margin: 0 auto;
 }
 
+span {
+  font-family: var(--main-font);
+  font-size: 80px;
+}
 
 #hero-text {
-  font-size: 12rem;
-  text-align: left;
-  line-height: .9;
+  font-size: 32px;
   margin-top: 160px;
   max-width: 1280px;
   word-wrap: normal;
+}
+
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+	        animation: tracking-in-contract 0.8s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }
 
 @keyframes downarrow {
@@ -761,9 +801,6 @@ button[type="submit"] {
     display: block;
   }
 
-  #hero-text {
-    font-size: 7rem;
-  }
 
   #equality h2 {
     padding: 48px 0 96px;
@@ -878,13 +915,6 @@ button[type="submit"] {
 /************ MOBILE BREAKPOINT ***************/
 @media only screen and (max-width: 600px) {
 
-  
-  
-
-
-  #hero-text {
-    font-size: 6rem;
-  }
 
   
 
