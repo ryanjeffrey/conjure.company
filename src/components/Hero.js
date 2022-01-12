@@ -10,9 +10,10 @@ const Hero = () => {
           <h2 id="hero-text" className="">
             <span>conjure</span> is a development studio.
             <br />
-            we partner with design agencies to develop extraordinary digital products. 
+            We partner with creative agencies to bring designs to life... as if
+            by magic.
           </h2>
-          <p className="arrow down">&#8595;</p>
+          {/* <p className="arrow down">&#8595;</p> */}
         </div>
 
         <div className="img-wrapper">
@@ -29,10 +30,8 @@ const Hero = () => {
         </div>
 
         <div className="container cssanimation sequence fadeInBottom">
-          <div id="equality">
-            
-
-            {/* <button>start a project</button> */}
+          <div id="home-page-cta">
+            <button>Learn More →</button>
           </div>
         </div>
       </div>

@@ -18,16 +18,7 @@ const About = () => {
           </div>
 
           <div className="">
-            <StaticImage
-              src="../images/rsc-web-2.jpg"
-              className="hero-img"
-              width={560}
-              quality={100}
-              margin={0}
-              formats={["auto", "webp", "avif"]}
-              alt=""
-              id=""
-            />
+            
           </div>
 
           <div className="half-wrapper">
