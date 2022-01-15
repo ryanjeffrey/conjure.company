@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-  font-family: var(--secondary-font);
+  font-family: var(--main-font);
   font-size: 24px;
   font-weight: normal;
 }
@@ -185,7 +185,7 @@ footer {
   margin: 0;
   padding: 24px 0 0 0;
   font-family: var(--main-font);
-  font-size: 20px;
+  font-size: 32px;
   line-height: 0.7;
   transition: all 0.6s ease-in-out;
 }
@@ -216,7 +216,6 @@ footer {
 
 span {
   font-family: var(--main-font);
-  font-size: 80px;
 }
 
 #hero-text {
@@ -612,7 +611,7 @@ h6 {
 .numbers h4 {
   font-family: var(--main-font);
   font-weight: normal;
-  font-size: 64px;
+  font-size: 24px;
 }
 
 .numbers p {

@@ -20,7 +20,7 @@ const indigo = () => (
           INDIGO →
         </a>
         <br />
-        KPIs: revenue, average order value, conversion rate
+        Role: RWD (Squarespace), Web Design, Art Direction
       </p>
 
       <div className="img-wrapper">

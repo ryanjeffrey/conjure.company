@@ -12,9 +12,9 @@ const contact = () => {
     <div className="container">
       <h1 style={{ fontWeight: "bold", fontSize: "32px" }}>conjure</h1>
       <h2 style={{ paddingTop: "24px", fontSize: "16px" }}>Inquiries</h2>
-      <h2 style={{ paddingBottom: "24px", fontSize: "24px" }}>
-        hello@rsc-creative.com
-      </h2>
+      <h3 style={{ paddingBottom: "24px", fontSize: "24px" }}>
+        hello@conjure.company
+      </h3>
       <Link to="/">
         <button>Home →</button>
       </Link>

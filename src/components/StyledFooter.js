@@ -8,11 +8,6 @@ const StyledFooter = () => {
     return (
       <div className="styled-footer">
         <footer>
-          <Link to="/contact"><p
-            id="start-a-project"
-          >
-            start a project →
-          </p></Link>
           <p
             id="footer-footer"
           >
