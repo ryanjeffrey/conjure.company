@@ -20,7 +20,7 @@ const caya = () => (
           CAYA →
         </a>
         <br />
-        KPIs: qualified leads, bounce rate, organic traffic
+        Role: Front End Development, Web Design, Art Direction
       </p>
 
       <div className="img-wrapper">
@@ -49,16 +49,7 @@ const caya = () => (
           of clients and business growth.
         </p>
 
-        <h3>Outcome</h3>
-
-        <div className="numbers">
-          <h4>145</h4>
-          <p>qualified leads in the first 3 months</p>
-          <h4>28%</h4>
-          <p>bounce rate much lower than the industry benchmark of 47%</p>
-          <h4>12k</h4>
-          <p>unique organic users in the first 3 months</p>
-        </div>
+        
       </div>
 
       <div className="case-study-grid">

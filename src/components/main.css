@@ -216,6 +216,7 @@ footer {
 
 span {
   font-family: var(--main-font);
+  font-weight: bold;
 }
 
 #hero-text {
@@ -387,6 +388,10 @@ span {
   text-align: left;
   margin: 0 auto;
   padding: 48px 0 72px;
+}
+
+#home-page-cta {
+  padding-bottom: 24px;
 }
 
 #home-page-cta button {
@@ -614,17 +619,16 @@ h6 {
   font-size: 24px;
 }
 
-.numbers p {
-  padding: 0 0 24px 0;
-}
-
 .case-study-grid {
+  padding-top: 48px;
   display: grid;
   grid-template-columns: auto;
   grid-gap: 24px;
 }
 
-
+.challenge {
+  padding-bottom: 24px;
+}
 
 .grid-item-full {
   grid-column: span 2;

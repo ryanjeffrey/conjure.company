@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from 'gatsby'
 
 
 
@@ -31,7 +32,7 @@ const Hero = () => {
 
         <div className="container cssanimation sequence fadeInBottom">
           <div id="home-page-cta">
-            <button>Learn More →</button>
+            <Link to="/work"><button>Learn More →</button></Link>
           </div>
         </div>
       </div>
