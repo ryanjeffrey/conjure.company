@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import "../components/main.css"
 import "../components/layout.css"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const About = () => {
   return (
@@ -30,9 +31,13 @@ const About = () => {
 
           <div className="half-wrapper">
             <p id="bio">
-              Conjure is the web development studio of Ryan Smith. With a detail-oriented mind for design, we love creating thoughtful, effective websites. 
-              <br />
+              Conjure is the web development studio of Ryan Smith. With a
+              detail-oriented mind for design, we love creating thoughtful,
+              effective websites.
             </p>
+            <Link to="/contact">
+              <button>Learn More →</button>
+            </Link>
           </div>
         </div>
       </Layout>
