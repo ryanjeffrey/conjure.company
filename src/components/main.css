@@ -647,17 +647,18 @@ h6 {
 }
 
 /*********** About Page ***************/
+.center {
+  
+  padding: 0 24px 24px 24px;
+}
+
 .about-wrapper, .contact-page {
   margin-top: 112px;
 }
 
-.about-wrapper h2 {
-  font-size: 24px;
-  padding-bottom: 48px;
-}
+
 
 .about-wrapper img {
-  
 }
 
 .about-wrapper p {
@@ -675,6 +676,22 @@ h6 {
 
 .half-wrapper p span {
   font-size: 24px;
+}
+
+.icons {
+  display: inline;
+  margin: 24px 24px 24px 0;
+}
+.bio-wrapper {
+  max-width: 480px;
+}
+
+.bio-wrapper h3 {
+  font-family: var(--secondary-font);
+  font-weight: normal;
+}
+.spacer {
+  padding: 12px;
 }
 
 

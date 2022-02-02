@@ -20,7 +20,7 @@ const indigo = () => (
           INDIGO →
         </a>
         <br />
-        Role: RWD (Squarespace), Web Design, Art Direction
+        Role: RWD (Rapid Web Development), Web Design, Art Direction
       </p>
 
       <div className="img-wrapper">

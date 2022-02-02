@@ -5,18 +5,24 @@ import "../components/main.css"
 import "../components/layout.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import {
+  SiAdobephotoshop,
+  SiCss3,
+  SiGatsby,
+  SiGithub,
+  SiJavascript,
+  SiLinkedin,
+  SiReact,
+  SiSass,
+} from "react-icons/si"
 
 const About = () => {
   return (
     <div>
       <Layout>
         <Seo title="About" />
-        <div className="container cssanimation sequence fadeInBottom">
-          <div className="about-wrapper ">
-            <h2>Our team brings design to life - as if by magic.</h2>
-          </div>
-
-          <div className="">
+        <div className="center cssanimation sequence fadeInBottom">
+          <div className="about-wrapper">
             <StaticImage
               src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/headshot-2022-web.jpg"
               className=""
@@ -29,12 +35,36 @@ const About = () => {
             />
           </div>
 
-          <div className="half-wrapper">
+          <div className="bio-wrapper">
             <p id="bio">
-              Conjure is the web development studio of Ryan Smith. With a
-              detail-oriented mind for design, we love creating thoughtful,
-              effective websites.
+              Conjure is the development studio of Ryan Smith. With an eye for
+              detail and a passion for design, I develop thoughtful websites for
+              business. I work hard to make your digital products effortless to
+              use. As if by magic.
             </p>
+            <h3>Links:</h3>
+            <div className="icons">
+              <a href="https://www.linkedin.com/in/ryan-smith-219614230/">
+                <SiLinkedin size="40px" color="#0072b1" />
+              </a>
+            </div>
+            <div className="icons">
+              <a href="https://github.com/ryanjeffrey/">
+                <SiGithub size="40px" color="#6e5494" />
+              </a>
+            </div>
+            <div className="spacer"></div>
+            <h3>Skills:</h3>
+            <div className="icons">
+              <SiJavascript size="40px" color />
+            </div>
+            <div className="icons">
+              <SiReact size="40px" />
+            </div>
+            <div className="icons">
+              <SiCss3 size="40px" />
+            </div>
+            <div className="spacer"></div>
             <Link to="/contact">
               <button>Learn More →</button>
             </Link>
