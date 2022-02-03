@@ -21,7 +21,7 @@ const About = () => {
     <div>
       <Layout>
         <Seo title="About" />
-        <div className="center cssanimation sequence fadeInBottom">
+        <div className="container cssanimation sequence fadeInBottom">
           <div className="about-wrapper">
             <StaticImage
               src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/headshot-2022-web.jpg"
@@ -39,8 +39,7 @@ const About = () => {
             <p id="bio">
               Conjure is the development studio of Ryan Smith. With an eye for
               detail and a passion for design, I develop thoughtful websites for
-              business. I work hard to make your digital products effortless to
-              use. As if by magic.
+              business. I work hard to make digital products feel effortless. As if by magic.
             </p>
             <h3>Links:</h3>
             <div className="icons">
@@ -63,6 +62,15 @@ const About = () => {
             </div>
             <div className="icons">
               <SiCss3 size="40px" />
+            </div>
+            <div className="icons">
+              <SiAdobephotoshop size="40px" />
+            </div>
+            <div className="icons">
+              <SiGatsby size="40px" />
+            </div>
+            <div className="icons">
+              <SiSass size="40px" />
             </div>
             <div className="spacer"></div>
             <Link to="/contact">
