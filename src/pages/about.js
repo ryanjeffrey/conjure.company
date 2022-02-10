@@ -37,9 +37,28 @@ const About = () => {
 
           <div className="bio-wrapper">
             <p id="bio">
-              Conjure is the development studio of Ryan Smith. With an eye for
-              detail and a passion for design, I develop thoughtful websites for
-              business. I work hard to make digital products feel effortless. As if by magic.
+              <span>conjure</span> is the development studio of Ryan Smith. I'm a creative
+              entrepreneur who loves making clean digital things with code.
+              <br />
+              <br /> With a background in startup management, music, and graphic
+              design, I have a natural inclination to make things and build
+              systems. Before I wrote my first line of code, I explored learning
+              opportunities in digital marketing. After that marketing course I
+              redesigned my company’s e-commerce store and one thing became
+              clear: every company is a software company.
+              <br />
+              <br /> With an upgrade in software and a stronger web presence, my
+              company increased sales by 150% and has seen continued growth. The
+              excitement of growing a business coincided with a newfound passion
+              for making websites. I designed several websites for various
+              projects, and digging deeper into development proved valuable in a
+              very tangible way. <br />
+              <br />
+              Once the pandemic hit, my newly hybrid role afforded me more time
+              to dig even deeper. After a bootcamp and several self-guided
+              development courses, I knew that I’d be coding for the rest of my
+              career. My goal is to do the heavy lifting to make digital
+              products feel effortless. As if by magic.
             </p>
             <h3>Links:</h3>
             <div className="icons">
