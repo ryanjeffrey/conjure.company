@@ -150,7 +150,6 @@ button {
   background-color: var(--white);
   color: var(--black);
   text-decoration: none;
-  font-size: 20px;
   border: 1px solid var(--black);
   cursor: pointer;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
@@ -659,6 +658,7 @@ h6 {
 
 
 .about-wrapper img {
+  
 }
 
 .about-wrapper p {

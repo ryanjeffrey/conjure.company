@@ -3,7 +3,7 @@ module.exports = {
     title: `conjure`,
     description: `Web development studio based in Chicago`,
     author: `Ryan Jeffrey Smith`,
-    siteUrl: `https://rsc-creative.com`,
+    siteUrl: `https://conjure.company`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
