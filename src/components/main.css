@@ -684,7 +684,13 @@ h6 {
 .icons {
   display: inline;
   margin: 24px 24px 24px 0;
+  transition: 0.5s ease-in-out;
 }
+.icons:hover {
+  opacity: .8;
+  color: #ceeb7a;
+}
+
 .bio-wrapper {
   max-width: 480px;
 }
@@ -768,6 +774,15 @@ button[type="submit"] {
 
 
 
+
+/************* 404 PAGE ***************/
+
+
+#nope {
+  margin-top: 112px;
+}
+
+
 /************* DESKTOP BREAKPOINT ***************/
 @media only screen and (max-width: 1440px) {
   
@@ -827,6 +842,12 @@ button[type="submit"] {
   }
   #res-menu:checked ~ label #sign-two{
     display: block;
+  }
+
+
+  #hero-text {
+    line-height: 1.4;
+    text-align: left;
   }
 
 
