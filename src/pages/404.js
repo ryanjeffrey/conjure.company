@@ -9,7 +9,7 @@ const NotFoundPage = () => (
     <div className="container">
       <p id="nope">404: Not Found</p>
       <p>That doesn't exist!</p>
-      <p>Unforch. But it totally should.</p>
+      <p>Unforch.</p>
     </div>
   </Layout>
 )

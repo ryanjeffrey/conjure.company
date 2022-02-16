@@ -20,7 +20,7 @@ const indigo = () => (
           INDIGO →
         </a>
         <br />
-        Role: RWD (Rapid Web Development), Web Design, Art Direction
+        Role: Web Development, Web Design, Art Direction
       </p>
 
       <div className="img-wrapper">
@@ -45,7 +45,7 @@ const indigo = () => (
           could best serve their current clients as well as future clients.
           Through our brand strategy, visual identity, and art direction, we
           arrived at a youthful, vibrant and contemporary identity appropriate
-          for this legendary brand.
+          for this legendary brand. After launch, e-commerce sales grew 150% in the first year.
         </p>
 
       </div>
