@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
-
-@font-face {
-  font-family: "Voyage";
-  src: url(../fonts/Voyage-Regular.woff2);
-}
-
-@font-face {
-  font-family: "Voyage";
-  src: url(../fonts/Voyage-Bold.woff2);
-  font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Odibee+Sans&family=Space+Mono&display=swap');
 
 :root {
     --main-font: 'Odibee Sans', cursive;
@@ -126,7 +115,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(145, 145, 145);
+  color: #ceeb7a;
 }
 
 label #sign-one, label #sign-two {
@@ -146,6 +135,11 @@ label #sign-one, label #sign-two {
 
 .banner-area {
   background-color: green;
+}
+
+#nav-icon {
+  display: none;
+  transition: all 3s ease-in-out 0.5s;
 }
 
 button {
@@ -819,15 +813,17 @@ button[type="submit"] {
     background: var(--white);
     top: 80px;
     left: -100%;
-    text-align: center;
+    padding-top: 128px;
+    text-align: left;
     transition: .7s;
     z-index: 100;
   }
 
   nav ul li {
+    padding-top: 8px;
     display: block;
-    margin: 24px;
-    line-height: 40px;
+    /* margin: 24px; */
+    line-height: 64px;
   }
 
   nav ul li a {
@@ -844,6 +840,16 @@ button[type="submit"] {
     display: block;
   }
 
+  /* #res-menu:checked ~ #nav-icon {
+    display: inline;
+  } */
+  #nav-icon {
+    display: flex;
+  }
+
+  #nav-icon:hover {
+    color: #ceeb7a;
+  }
 
   #hero-text {
     line-height: 1.4;

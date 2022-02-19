@@ -11,8 +11,8 @@ const Hero = () => {
           <h2 id="hero-text" className="">
             <span>conjure</span> is a development studio.
             <br />
-            We partner with creative agencies to bring designs to life... as if
-            by magic.
+            We partner with creative agencies to bring designs to life.
+            <br /> As if by magic.
           </h2>
           {/* <p className="arrow down">&#8595;</p> */}
         </div>
@@ -32,7 +32,9 @@ const Hero = () => {
 
         <div className="container cssanimation sequence fadeInBottom">
           <div id="home-page-cta">
-            <Link to="/work"><button>Learn More →</button></Link>
+            <Link to="/work">
+              <button>Learn More →</button>
+            </Link>
           </div>
         </div>
       </div>
