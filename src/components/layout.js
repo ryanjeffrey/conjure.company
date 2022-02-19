@@ -8,8 +8,7 @@
 import * as React from "react"
 import StyledFooter from "./StyledFooter"
 import NavBar from "./navbar"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+
 
 import "./layout.css"
 import "./main.css"

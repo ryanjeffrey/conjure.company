@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "gatsby"
-import { FaGripLines, FaTimes } from "react-icons/fa"
 import {
   SiLinkedin,
 } from "react-icons/si"
+import { IoIosAddCircleOutline, IoIosAddCircle } from "react-icons/io"
 
 
 import "./layout.css"
@@ -15,8 +15,8 @@ const navbar = () => {
         <nav>
           <input type="checkbox" id="res-menu"></input>
           <label for="res-menu">
-            <FaGripLines id="sign-one" />
-            <FaTimes id="sign-two" />
+            <IoIosAddCircleOutline id="sign-one" size="24px" />
+            <IoIosAddCircle id="sign-two" size="24px" />
           </label>
 
           <Link to="/">
@@ -47,11 +47,7 @@ const navbar = () => {
               </div>
             </li>
           </ul>
-          
-          
-
         </nav>
-       
       </div>
     )
 }
