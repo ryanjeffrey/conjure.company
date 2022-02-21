@@ -25,7 +25,7 @@ const indigo = () => (
 
       <div className="img-wrapper">
         <StaticImage
-          src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-laptop.png"
+          src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-main.jpg"
           className="hero-img"
           width={1280}
           quality={100}
@@ -45,9 +45,9 @@ const indigo = () => (
           could best serve their current clients as well as future clients.
           Through our brand strategy, visual identity, and art direction, we
           arrived at a youthful, vibrant and contemporary identity appropriate
-          for this legendary brand. After launch, e-commerce sales grew 150% in the first year.
+          for this legendary brand. After launch, e-commerce sales grew 150% in
+          the first year.
         </p>
-
       </div>
 
       <div className="case-study-grid">

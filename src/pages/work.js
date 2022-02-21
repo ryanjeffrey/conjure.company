@@ -12,7 +12,6 @@ const work = () => {
         <Layout>
           <Seo title="Work" />
           <div className="case-studies-text cssanimation sequence fadeInBottom">
-
             <div className="grid-container">
               <div className="item2 flip">
                 <div className="img-wrapper">
@@ -27,18 +26,15 @@ const work = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="item1 text-on-right">
                 <h6>CAYA</h6>
                 <p id="designing">Designing and launching a telehealth brand</p>
-                
-                
+
                 <Link to="/caya">
                   <button id="see-case-study">See Case Study</button>
                 </Link>
               </div>
-
-              
             </div>
 
             <div className="case-study-spacer"></div>
@@ -48,7 +44,7 @@ const work = () => {
               <div className="item2">
                 <div className="img-wrapper">
                   <StaticImage
-                    src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-laptop.png"
+                    src="https://rscbucket.s3.us-east-2.amazonaws.com/indigo-main.jpg"
                     className="hero-img"
                     width={1096}
                     quality={100}
@@ -65,7 +61,7 @@ const work = () => {
                   <p id="designing">
                     Designing an ecomm store for an established beauty brand
                   </p>
-                  
+
                   <Link to="/indigo">
                     <button id="see-more">See Case Study</button>
                   </Link>
@@ -78,8 +74,6 @@ const work = () => {
             <div className="workflow-section">
               <h3 id="workflow">Workflow</h3>
               <div className="workflow-grid">
-                
-
                 <div className="workflow-grid-item">
                   <span>01</span>
                   <h4>Design</h4>

@@ -8,7 +8,7 @@
     --black: #121212;
     --white: #ffffff;
     --color-accent: #ceeb7a;
-    --grey: #dedede;
+    --grey: #cbcbcb;
 
     --line-global: 24px;
     --gutter-global: calc(var(--line-global) * 2);
@@ -225,7 +225,7 @@ span {
 }
 
 #home-page-cta button:hover {
-  background-color: var(--grey);
+  background-color: #dfece6c4;
 }
 
 
