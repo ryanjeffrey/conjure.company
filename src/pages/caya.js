@@ -47,21 +47,10 @@ const caya = () => (
           center of their identity. By doing so, the new branding design lays a
           strong strategic and visual foundation for continued expansion of
           clients and business growth. Our work with CAYA was featured on{" "}
-          <a
-            href="https://www.popsugar.com/fitness/best-journaling-prompts-for-mental-health-48355359?stream_view=1#photo-48355362"
-            target="_blank"
-            rel="noreferrer"
-          >
+       
             <strong>POPSUGAR</strong>
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://www.verywellmind.com/staying-body-positive-after-covid-19-5184392"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <strong>verywell</strong>.
-          </a>
+          {" "}
+          and{" "} <strong>verywell</strong>.
         </p>
       </div>
 
@@ -132,7 +121,7 @@ const caya = () => (
         </div>
       </div>
 
-      <div className="button-container">
+      <div className="button-container next">
         <Link to="/indigo">
           <button className="case-study-btn">Next</button>
         </Link>

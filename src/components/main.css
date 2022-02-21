@@ -116,7 +116,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ceeb7a;
+  color: var(--color-accent);
 }
 
 label #sign-one, label #sign-two {
@@ -143,13 +143,14 @@ label #sign-one, label #sign-two {
   transition: all 3s ease-in-out 0.5s;
 }
 
+
+/***************** BUTTON ***************/
 button {
   font-family: var(--secondary-font);
   background-color: var(--color-accent);
   color: var(--white);
   font-size: 12px;
   text-decoration: none;
-  width: 50%;
   cursor: pointer;
   border: none;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
@@ -160,7 +161,7 @@ button {
 }
 
 button:hover {
-  background-color: #854d74;
+  opacity: 80%;
 }
 
 
@@ -215,14 +216,14 @@ span {
 }
 
 #home-page-cta {
-  background-color: red;
+  /* background-color: red; */
 }
 
 #home-page-cta button {
-  padding: ;
   display: flex;
   margin-bottom: 24px;
 }
+
 
 .tracking-in-contract {
 	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
@@ -363,35 +364,7 @@ span {
     } 
 }
 
-.sun-wrapper {
-  display: flex;
-}
 
-#equality {
-  max-width: 1232px;
-  /* border-bottom: 1px solid var(--black); */
-  margin: 0 auto;
-  overflow: auto;
-  padding-bottom: 24px;
-}
-
-#equality h2 {
-  font-size: 64px;
-  font-weight: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  margin: 0 auto;
-  padding: 48px 0 72px;
-}
-
-
-
-.card-container h3 {
-  margin: 0;
-  padding: 48px 0;
-}
 
 .wrapper {
   display: grid;
@@ -591,10 +564,16 @@ h6 {
   grid-column: span 1;
 }
 
-
 .button-container {
   padding-top: 96px;
+  display: flex;
 }
+
+.button-container .next{
+  background-color: red;
+  justify-content: right;
+}
+
 
 /*********** About Page ***************/
 .center {
@@ -669,57 +648,6 @@ h6 {
 .contact-page p {
   font-size: 32px;
 }
-
-
-.contact-page button {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-}
-input[type="text"],
-textarea,
-input[type="email"],
-input[type="tel"] {
-  background: var(--white);
-  color: var(--black);
-  border: none;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  display: block;
-  font-size: 1.1rem;
-  width: 100%;
-  box-sizing: border-box;
-  outline: 1px solid var(--black);
-}
-
-input[type="text"]:focus,
-textarea:focus {
-  
-}
-textarea {
-  resize: none;
-}
-
-/* button[type="submit"] {
-  padding: 0.5rem 2rem;
-  color: var(--black);
-  border: none;
-  background-color: var(--white);
-  border-radius: 1em;
-  font-size: 1.5rem;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: background-color ease-in 200ms;
-}
-
-button[type="submit"]:hover {
-  background-color: #8abea0;
-} */
-
-button[type="submit"] {
-  font-size: 20px;
-}
-
 
 
 
@@ -803,35 +731,16 @@ button[type="submit"] {
     text-align: left;
   }
 
-
-  #equality h2 {
-    padding: 48px 0 96px;
-    font-size: 3rem;
-  }
   
   .button-container {
-    padding-top: 0;
+    padding: 16px 0;
   }
 
   .wrapper {
     display: block;
   }
 
-  .card1,
-  .card2,
-  .card3 {
-    padding-bottom: 96px;
-  }
 
-  .card-container {
-    padding-bottom: 0;
-  }
-
-  
-
-  .card-container h4 {
-    font-size: 32px;
-  }
   
   /* WORK PAGE */
   .grid-container {
@@ -912,29 +821,3 @@ button[type="submit"] {
 }
 
 
-
-
-/************ MOBILE BREAKPOINT ***************/
-@media only screen and (max-width: 600px) {
-
-
-  
-
-  .carousel-wrapper {
-    height: 600px;
-  }
-
-  
-
-  #start-a-project {
-    font-size: 80px;
-    padding: 24px;
-  }
-
-
-  
-
-
-  
-
-}
