@@ -8,6 +8,7 @@
     --black: #121212;
     --white: #ffffff;
     --color-accent: #ceeb7a;
+    --greenish: #d8e497cf;
     --grey: #cbcbcb;
 
     --line-global: 24px;
@@ -116,7 +117,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--color-accent);
+  color: var(--greenish);
 }
 
 label #sign-one, label #sign-two {
@@ -147,8 +148,8 @@ label #sign-one, label #sign-two {
 /***************** BUTTON ***************/
 button {
   font-family: var(--secondary-font);
-  background-color: var(--grey);
-  font-size: 12px;
+  background-color: var(--color-accent);
+  font-size: 14px;
   text-decoration: none;
   cursor: pointer;
   border: none;
@@ -160,7 +161,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--color-accent);
+  background-color: var(--greenish);
 }
 
 
@@ -221,11 +222,6 @@ span {
 #home-page-cta button {
   display: flex;
   margin-bottom: 24px;
-  background-color: var(--color-accent);
-}
-
-#home-page-cta button:hover {
-  background-color: #dfece6c4;
 }
 
 
@@ -630,6 +626,11 @@ h6 {
   font-family: var(--secondary-font);
   font-weight: normal;
 }
+
+.bio-wrapper button {
+  margin: 24px 0;
+}
+
 .spacer {
   padding: 12px;
 }
