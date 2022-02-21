@@ -59,7 +59,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -72,7 +72,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -98,7 +98,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -111,7 +111,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -124,7 +124,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -137,7 +137,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -150,7 +150,7 @@ const indigo = () => (
             quality={100}
             margin={0}
             formats={["auto", "webp"]}
-            alt="caya wellness"
+            alt="indigo"
             id="caya"
           />
         </div>
@@ -158,7 +158,7 @@ const indigo = () => (
 
       <div className="button-container">
         <Link to="/caya">
-          <button className="case-study-btn">← Previous</button>
+          <button className="case-study-btn">Previous</button>
         </Link>
       </div>
     </div>

@@ -134,7 +134,7 @@ const caya = () => (
 
       <div className="button-container">
         <Link to="/indigo">
-          <button className="case-study-btn">Next →</button>
+          <button className="case-study-btn">Next</button>
         </Link>
       </div>
     </div>

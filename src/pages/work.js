@@ -34,7 +34,7 @@ const work = () => {
                 
                 
                 <Link to="/caya">
-                  <button id="see-more">See Case Study →</button>
+                  <button id="see-more">See Case Study</button>
                 </Link>
               </div>
 
@@ -67,7 +67,7 @@ const work = () => {
                   </p>
                   
                   <Link to="/indigo">
-                    <button id="see-more">See Case Study →</button>
+                    <button id="see-more">See Case Study</button>
                   </Link>
                 </div>
               </div>

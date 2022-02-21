@@ -65,7 +65,6 @@ const About = () => {
               career. My goal is to do the heavy lifting to make digital
               products feel effortless. As if by magic.
             </p>
-            <h3>Links:</h3>
             <div className="icons">
               <a href="https://www.linkedin.com/in/ryan-smith-219614230/">
                 <SiLinkedin size="40px" color="#0072b1" />
@@ -110,7 +109,7 @@ const About = () => {
             </div>
             <div className="spacer"></div>
             <Link to="/contact">
-              <button>Learn More →</button>
+              <button>Learn More</button>
             </Link>
           </div>
         </div>

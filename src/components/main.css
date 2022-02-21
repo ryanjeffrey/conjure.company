@@ -7,7 +7,8 @@
     
     --black: #121212;
     --white: #ffffff;
-    --color-accent: #8D8D8D;
+    --color-accent: #37658b;
+    --green: #ceeb7a;
 
     --line-global: 24px;
     --gutter-global: calc(var(--line-global) * 2);
@@ -144,20 +145,22 @@ label #sign-one, label #sign-two {
 
 button {
   font-family: var(--secondary-font);
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--color-accent);
+  color: var(--white);
+  font-size: 12px;
   text-decoration: none;
-  border: 1px solid var(--black);
+  width: 50%;
   cursor: pointer;
+  border: none;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
-  border-radius: none;
-  padding: 16px 32px;
+  border-radius: 32px;
+  padding: 8px 48px;
   transition: all 0.6s ease-in-out;
+  margin: 0 auto;
 }
 
 button:hover {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #854d74;
 }
 
 
@@ -176,19 +179,6 @@ footer {
   margin: 0 auto;
 }
 
-#start-a-project {
-  text-align: center;
-  margin: 0;
-  padding: 24px 0 0 0;
-  font-family: var(--main-font);
-  font-size: 32px;
-  line-height: 0.7;
-  transition: all 0.6s ease-in-out;
-}
-
-#start-a-project:hover {
-  color: #ceeb7a;
-}
 
 #footer-footer {
   text-align: center;
@@ -222,6 +212,16 @@ span {
   word-wrap: normal;
   line-height: 1.8;
   text-align: center;
+}
+
+#home-page-cta {
+  background-color: red;
+}
+
+#home-page-cta button {
+  padding: ;
+  display: flex;
+  margin-bottom: 24px;
 }
 
 .tracking-in-contract {
@@ -386,14 +386,6 @@ span {
   padding: 48px 0 72px;
 }
 
-#home-page-cta {
-  padding-bottom: 24px;
-}
-
-#home-page-cta button {
-  display: flex;
-  align-items: center;
-}
 
 
 .card-container h3 {
@@ -417,38 +409,6 @@ span {
   padding-bottom: 16px;
 }
 
-.card1,
-.card2,
-.card3 {
-  color: var(--black);
-}
-
-.card1 {
-  
-}
-
-.card2 {
-  
-}
-
-.card3 {
-  
-}
-
-.cards {
-  
-}
-
-.cards h4 {
-  font-size: 16px;
-  padding-bottom: 24px;
-}
-
-  .card-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 96px 0;
-}
 
 
 .container, .card-container, .img-wrapper, .case-studies-text, .case-study {
@@ -496,10 +456,7 @@ span {
   padding-bottom: 48px;
 }
 
-#see-more {
-  font-family: var(--secondary-font);
-  font-size: 16px;
-}
+
 
 .grid-container {
   display: grid;
@@ -634,9 +591,6 @@ h6 {
   grid-column: span 1;
 }
 
-.case-study-btn {
-  font-size: 16px;
-}
 
 .button-container {
   padding-top: 96px;
@@ -777,11 +731,7 @@ button[type="submit"] {
 }
 
 
-/************* DESKTOP BREAKPOINT ***************/
-@media only screen and (max-width: 1440px) {
-  
 
-}
 
 /******** TABLET BREAKPOINT  ************/
 @media only screen and (max-width: 1000px) {
@@ -796,9 +746,6 @@ button[type="submit"] {
   #caya img {
     width: 100%;
   }
-
-
-
 }
 
 @media only screen and (max-width: 870px) {

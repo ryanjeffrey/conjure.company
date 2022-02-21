@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="container cssanimation sequence fadeInBottom">
           <div id="home-page-cta">
             <Link to="/work">
-              <button>Learn More →</button>
+              <button>Learn more</button>
             </Link>
           </div>
         </div>

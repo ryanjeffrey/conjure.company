@@ -16,7 +16,7 @@ const contact = () => {
         ryan@conjure.company
       </h3>
       <Link to="/">
-        <button>Home →</button>
+        <button>Home</button>
       </Link>
     </div>
   )
