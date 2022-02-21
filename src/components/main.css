@@ -7,8 +7,8 @@
     
     --black: #121212;
     --white: #ffffff;
-    --color-accent: #37658b;
-    --green: #ceeb7a;
+    --color-accent: #ceeb7a;
+    --grey: #dedede;
 
     --line-global: 24px;
     --gutter-global: calc(var(--line-global) * 2);
@@ -147,8 +147,7 @@ label #sign-one, label #sign-two {
 /***************** BUTTON ***************/
 button {
   font-family: var(--secondary-font);
-  background-color: var(--color-accent);
-  color: var(--white);
+  background-color: var(--grey);
   font-size: 12px;
   text-decoration: none;
   cursor: pointer;
@@ -161,7 +160,7 @@ button {
 }
 
 button:hover {
-  opacity: 80%;
+  background-color: var(--color-accent);
 }
 
 
@@ -222,7 +221,13 @@ span {
 #home-page-cta button {
   display: flex;
   margin-bottom: 24px;
+  background-color: var(--color-accent);
 }
+
+#home-page-cta button:hover {
+  background-color: var(--grey);
+}
+
 
 
 .tracking-in-contract {
@@ -569,8 +574,7 @@ h6 {
   display: flex;
 }
 
-.button-container .next{
-  background-color: red;
+.next {
   justify-content: right;
 }
 

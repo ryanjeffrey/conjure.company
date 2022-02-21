@@ -26,17 +26,17 @@ const navbar = () => {
           <ul>
             <li>
               <Link to="/work">
-                <a>Work</a>
+                <a>WORK</a>
               </Link>
             </li>
             <li>
               <Link to="/about">
-                <a>About</a>
+                <a>ABOUT</a>
               </Link>
             </li>
             <li>
               <Link to="/contact">
-                <a>Contact</a>
+                <a>CONTACT</a>
               </Link>
             </li>
             <li>
