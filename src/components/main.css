@@ -148,7 +148,7 @@ label #sign-one, label #sign-two {
 /***************** BUTTON ***************/
 button {
   font-family: var(--secondary-font);
-  background-color: var(--color-accent);
+  background-color: var(--greenish);
   color: var(--black);
   font-size: 14px;
   text-decoration: none;
@@ -162,7 +162,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--greenish);
+  background-color: var(--color-accent);
 }
 
 
@@ -432,6 +432,7 @@ span {
   font-size: 16px;
 }
 
+
 #designing {
   font-size: 24px;
   padding-bottom: 48px;
@@ -593,11 +594,6 @@ h6 {
 }
 
 
-
-.about-wrapper img {
-  
-}
-
 .about-wrapper p {
   display: flex;
 }
@@ -643,7 +639,7 @@ h6 {
 }
 
 .skill-icon-wrapper {
-  display: grid;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -689,6 +685,8 @@ h6 {
   }
 }
 
+
+/********** MOBILE BREAKPOINT ************/
 @media only screen and (max-width: 870px) {
   label #sign-one {
     display: block;
@@ -821,6 +819,11 @@ h6 {
   /* ABOUT PAGE */
   .about-wrapper h2 {
   padding-bottom: 24px;
+}
+
+.skill-icon-wrapper {
+  display: grid;
+  justify-content: space-between;
 }
 
   footer {
