@@ -424,8 +424,6 @@ span {
 .case-studies-text h5 {
   font-weight: normal;
   font-family: var(--secondary-font);
-  font-size: 32px;
-  /* padding-bottom: 96px; */
 }
 
 .case-studies-text h6 {
@@ -783,7 +781,7 @@ h6 {
 }
 
   .case-studies-text h5 {
-    font-size: 1.3rem;
+    font-size: 12px;
   }
 
   .grid-container .img-wrapper {
@@ -799,10 +797,6 @@ h6 {
   }
 
 
-  .numbers {
-  
-  }
-
   .case-study-grid {
     display: block;
   }
@@ -812,11 +806,11 @@ h6 {
   }
 
   .text-on-right {
-  margin: 0;
+    margin: 0;
   }
 
   .workflow-section h4 {
-  font-size: 32px;
+    font-size: 32px;
 }
 
   .workflow-grid {

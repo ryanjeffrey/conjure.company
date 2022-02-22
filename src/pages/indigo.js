@@ -20,7 +20,7 @@ const indigo = () => (
           INDIGO →
         </a>
         <br />
-        Role: Web Development, Web Design, Art Direction
+        Role: Squarespace Development, Web Design, Art Direction
       </p>
 
       <div className="img-wrapper">
