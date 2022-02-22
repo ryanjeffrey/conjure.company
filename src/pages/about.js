@@ -77,37 +77,38 @@ const About = () => {
             </div>
             <div className="spacer"></div>
             <h3>Skills:</h3>
-            <div className="icons">
-              <SiJavascript size="40px" color />
-            </div>
-            <div className="icons">
-              <SiReact size="40px" />
-            </div>
-            <div className="icons">
-              <SiCss3 size="40px" />
-            </div>
-            <div className="icons">
-              <SiAdobephotoshop size="40px" />
-            </div>
-            <div className="icons">
-              <SiGatsby size="40px" />
-            </div>
-            <div className="icons">
-              <SiFigma size="40px" />
-            </div>
-            <div className="icons">
-              <SiAmazonaws size="40px" />
-            </div>
-            <div className="icons">
-              <SiStackoverflow size="40px" />
-            </div>
-            <div className="icons">
-              <SiVisualstudiocode size="40px" />
-            </div>
-            <div className="icons">
-              <SiGoogle size="40px" />
-            </div>
-            <div className="spacer"></div>
+              <div className="skill-icon-wrapper">
+                <div className="icons">
+                  <SiJavascript size="40px" color />
+                </div>
+                <div className="icons">
+                  <SiReact size="40px" />
+                </div>
+                <div className="icons">
+                  <SiCss3 size="40px" />
+                </div>
+                <div className="icons">
+                  <SiAdobephotoshop size="40px" />
+                </div>
+                <div className="icons">
+                  <SiGatsby size="40px" />
+                </div>
+                <div className="icons">
+                  <SiFigma size="40px" />
+                </div>
+                <div className="icons">
+                  <SiAmazonaws size="40px" />
+                </div>
+                <div className="icons">
+                  <SiStackoverflow size="40px" />
+                </div>
+                <div className="icons">
+                  <SiVisualstudiocode size="40px" />
+                </div>
+                <div className="icons">
+                  <SiGoogle size="40px" />
+                </div>
+              </div>
             <Link to="/contact">
               <button>Learn More</button>
             </Link>

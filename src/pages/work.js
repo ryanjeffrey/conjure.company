@@ -72,10 +72,10 @@ const work = () => {
             <div className="case-study-spacer"></div>
 
             <div className="workflow-section">
-              <h3 id="workflow">Workflow</h3>
+              <h3 id="workflow">WORKFLOW</h3>
               <div className="workflow-grid">
                 <div className="workflow-grid-item">
-                  <span>01</span>
+                  <h5 className="workflow-numbers">01</h5>
                   <h4>Design</h4>
                   <p>
                     Motion Design
@@ -88,7 +88,7 @@ const work = () => {
                   </p>
                 </div>
                 <div className="workflow-grid-item">
-                  <span>02</span>
+                  <h5 className="workflow-numbers">02</h5>
                   <h4>Develop</h4>
                   <p>
                     API + SDK
@@ -103,7 +103,7 @@ const work = () => {
                   </p>
                 </div>
                 <div className="workflow-grid-item">
-                  <span>03</span>
+                  <h5 className="workflow-numbers">03</h5>
                   <h4>Deliver</h4>
                   <p>
                     Analytics + Reporting

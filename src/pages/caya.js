@@ -37,7 +37,7 @@ const caya = () => (
       </div>
 
       <div className="half-wrapper">
-        <h3>Challenge</h3>
+        <h3>CHALLENGE</h3>
         <p>
           We partnered with CAYA’s Founder + CEO, Courtney Cornick, PhD to help
           guide the brand towards a future of virtual private practice by crafting a

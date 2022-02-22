@@ -37,7 +37,7 @@ const indigo = () => (
       </div>
 
       <div className="half-wrapper">
-        <h3>Challenge</h3>
+        <h3>CHALLENGE</h3>
         <p>
           We partnered with INDIGO to reposition and evolve the brand to better
           serve the next generation of beauty professionals. We did a deep dive

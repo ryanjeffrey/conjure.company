@@ -149,6 +149,7 @@ label #sign-one, label #sign-two {
 button {
   font-family: var(--secondary-font);
   background-color: var(--color-accent);
+  color: var(--black);
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
@@ -416,7 +417,7 @@ span {
   font-weight: normal;
   font-family: var(--secondary-font);
   font-size: 32px;
-  padding-bottom: 96px;
+  /* padding-bottom: 96px; */
 }
 
 .case-studies-text h6 {
@@ -609,9 +610,9 @@ h6 {
 }
 
 .icons {
-  display: inline;
   margin: 24px 24px 24px 0;
   transition: 0.5s ease-in-out;
+  display: initial;
 }
 .icons:hover {
   opacity: .8;
@@ -623,7 +624,7 @@ h6 {
 }
 
 .bio-wrapper h3 {
-  font-family: var(--secondary-font);
+  text-transform: uppercase;
   font-weight: normal;
 }
 
@@ -635,6 +636,10 @@ h6 {
   padding: 12px;
 }
 
+.skill-icon-wrapper {
+  display: grid;
+  justify-content: space-between;
+}
 
 /*********** Contact Page ***************/
 
