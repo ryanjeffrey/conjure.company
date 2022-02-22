@@ -49,11 +49,10 @@ const About = () => {
               <br />
               <br />Before I wrote my first line of code, I explored a
               learning opportunity in digital marketing. After that marketing
-              course I redesigned my company’s e-commerce store and one thing
+              course I redesigned my team’s e-commerce store and one thing
               became clear: every company is a software company.
               <br />
-              <br /> With an upgrade in software and a stronger web presence, my
-              company increased sales by 150% and has seen continued growth. The
+              <br /> With an upgrade in software and stronger web presence, we increased sales by 150% that year. The
               excitement of growing a business coincided with a newfound passion
               for making websites. I designed several websites for various
               projects, and digging deeper into development proved valuable in a
