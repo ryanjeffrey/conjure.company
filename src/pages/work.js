@@ -32,7 +32,7 @@ const work = () => {
                 <p id="designing">Designing and launching a telehealth brand</p>
 
                 <Link to="/caya">
-                  <button id="see-case-study">See Case Study</button>
+                  <button id="see-case-study">See case study</button>
                 </Link>
               </div>
             </div>
@@ -63,7 +63,7 @@ const work = () => {
                   </p>
 
                   <Link to="/indigo">
-                    <button id="see-more">See Case Study</button>
+                    <button id="see-more">See case study</button>
                   </Link>
                 </div>
               </div>
