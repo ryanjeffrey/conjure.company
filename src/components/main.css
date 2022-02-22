@@ -653,6 +653,11 @@ h6 {
   align-items: center;
 }
 
+#inquiries {
+  font-size: 16px;
+  padding: 24px 0 8px;
+}
+
 .contact-link {
   margin: 0 auto;
   padding-bottom: 24px;

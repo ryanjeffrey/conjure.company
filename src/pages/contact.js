@@ -12,7 +12,7 @@ const contact = () => {
   return (
     <div className="container contact-page cssanimation sequence fadeInBottom">
       <h1 style={{ fontWeight: "bold", fontSize: "32px" }}>conjure</h1>
-      <h2 style={{ paddingTop: "24px", fontSize: "16px" }}>INQUIRIES</h2>
+      <h2 id="inquiries">INQUIRIES</h2>
   
       <div className="icons contact-link">
         <a href="https://www.linkedin.com/in/ryan-smith-219614230/">
