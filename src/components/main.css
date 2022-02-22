@@ -588,7 +588,7 @@ h6 {
   padding: 0 24px 24px 24px;
 }
 
-.about-wrapper, .contact-page {
+.about-wrapper {
   margin-top: 112px;
 }
 
@@ -650,19 +650,11 @@ h6 {
 /*********** Contact Page ***************/
 
 .contact-page {
-  padding-bottom: 96px;
-}
-
-.contact-page h2, .contact-page p {
-  padding: 24px;
-}
-
-.contact-page h2 {
-  font-size: 40px;
-}
-
-.contact-page p {
-  font-size: 32px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
