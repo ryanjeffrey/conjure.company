@@ -657,6 +657,11 @@ h6 {
   align-items: center;
 }
 
+.contact-link {
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
 
 
 /************* 404 PAGE ***************/

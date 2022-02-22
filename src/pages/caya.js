@@ -40,17 +40,15 @@ const caya = () => (
         <h3>CHALLENGE</h3>
         <p>
           We partnered with CAYA’s Founder + CEO, Courtney Cornick, PhD to help
-          guide the brand towards a future of virtual private practice by crafting a
-          custom design system that spans the web experience, custom client email
-          feature, and branding. We wanted to create a welcoming space for Black
-          women that brings the brand’s core value of “Come As You Are” to the
-          center of their identity. By doing so, the new branding design lays a
-          strong strategic and visual foundation for continued expansion of
-          clients and business growth. Our work with CAYA was featured on{" "}
-       
-            <strong>POPSUGAR</strong>
-          {" "}
-          and{" "} <strong>verywell</strong>.
+          guide the brand towards a future of virtual private practice by
+          crafting a custom design system that spans the web experience, custom
+          client email feature, and branding. We wanted to create a welcoming
+          space for Black women that brings the brand’s core value of “Come As
+          You Are” to the center of their identity. By doing so, the new
+          branding design lays a strong strategic and visual foundation for
+          continued expansion of clients and business growth. Our work with CAYA
+          was featured on <strong>POPSUGAR</strong> and{" "}
+          <strong>verywell</strong>.
         </p>
       </div>
 
@@ -70,7 +68,7 @@ const caya = () => (
 
         <div className="grid-item-half">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-logo-words.png"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/caya-logo-gradient.jpg"
             className="hero-img"
             width={1280}
             quality={100}

@@ -42,7 +42,7 @@ const indigo = () => (
           We partnered with INDIGO to reposition and evolve the brand to better
           serve the next generation of beauty professionals. We did a deep dive
           into the history of the brand, the competitive landscape, and how we
-          could best serve their current clients as well as future clients.
+          could best serve their current and future clients.
           Through our brand strategy, visual identity, and art direction, we
           arrived at a youthful, vibrant and contemporary identity appropriate
           for this legendary brand. After launch, e-commerce sales grew 150% in
