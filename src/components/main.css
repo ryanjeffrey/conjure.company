@@ -185,8 +185,16 @@ footer {
 #footer-footer {
   text-align: center;
   margin: 0;
-  padding: 24px;
+  padding: 0 24px 24px 24px;
   font-size: 12px;
+}
+
+#footer-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 16px;
+
 }
 
 .container h1, h2, p{
