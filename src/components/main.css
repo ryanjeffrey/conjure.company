@@ -15,14 +15,12 @@
     --gutter-global: calc(var(--line-global) * 2);
 }
 
+/********** GLOBAL ************/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.all-content {
-  /* padding: 24px; */
 }
 
 html {
@@ -49,14 +47,14 @@ h2 {
 }
 
 h3 {
-  font-family: var(--main-font);
-  font-size: 24px;
+  font-family: var(--secondary-font);
+  font-size: 16px;
   font-weight: normal;
 }
 
 h4 {
   font-family: var(--secondary-font);
-  font-size: 48px;
+  font-size: 32px;
   font-weight: normal;
 }
 
@@ -133,9 +131,6 @@ label #sign-one, label #sign-two {
   display: none;
 }
 
-.banner-area {
-  background-color: green;
-}
 
 #nav-icon {
   display: none;
@@ -152,7 +147,6 @@ button {
   text-decoration: none;
   cursor: pointer;
   border: none;
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   border-radius: 32px;
   padding: 8px 48px;
   transition: all 0.6s ease-in-out;
@@ -164,9 +158,7 @@ button:hover {
 }
 
 
-
-
-
+/***************** FOOTER ***************/
 
 .styled-footer {
   display: flex;
@@ -195,11 +187,11 @@ footer {
 
 }
 
+
 .container h1, h2, p{
   max-width: 1280px;
   margin: 0 auto;
 }
-
 
 .container p {
   font-size: 32px;
@@ -222,9 +214,6 @@ span {
   text-align: center;
 }
 
-#home-page-cta {
-  /* background-color: red; */
-}
 
 #home-page-cta button {
   display: flex;
@@ -256,28 +245,6 @@ span {
   max-width: 1280px;
   padding: 96px 0;
 }
-
-
-
-.sun-wrapper {
-    -webkit-animation:fadeInOut 5s infinite;
-    -moz-animation:fadeInOut 5s infinite;
-    animation:fadeInOut 5s infinite;
-}
-@-moz-keyframes fadeInOut { 
-    100% { -moz-transform: scale(2, 0.5); } 
-}
-@-webkit-keyframes fadeInOut { 
-    100% { -webkit-transform: scale(2, 0.5); } 
-}
-@keyframes fadeInOut { 
-    100% { 
-        -webkit-transform: scale(2, 0.5); 
-        transform:scale(2, 0.7); 
-    } 
-}
-
-
 
 .wrapper {
   display: grid;
@@ -341,8 +308,6 @@ span {
   padding-bottom: 48px;
 }
 
-
-
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -370,7 +335,7 @@ span {
 }
 
 .case-study-spacer {
-  border-bottom: 1px solid #121212;
+  border-bottom: 1px solid var(--grey);
   padding: 48px 0;
 }
 
@@ -438,6 +403,8 @@ h6 {
 }
 
 .case-study h3 {
+  font-family: var(--secondary-font);
+  font-weight: bold;
   padding: 48px 0 0 0;
   margin: 0;
   font-size: 18px;
@@ -487,15 +454,12 @@ h6 {
 }
 
 .next {
+  display: flex;
   justify-content: right;
 }
 
 
 /*********** About Page ***************/
-.center {
-  
-  padding: 0 24px 24px 24px;
-}
 
 .about-wrapper {
   margin-top: 112px;
@@ -526,7 +490,7 @@ h6 {
 }
 .icons:hover {
   opacity: .8;
-  color: #ceeb7a;
+  color: var(--greenish);
 }
 
 .bio-wrapper {
@@ -566,7 +530,7 @@ h6 {
 /*********** Contact Page ***************/
 
 .contact-page {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -594,8 +558,8 @@ h6 {
 
 
 
-/******** TABLET BREAKPOINT  *********************/
-@media only screen and (max-width: 1000px) {
+/********** MOBILE BREAKPOINT ************/
+@media only screen and (max-width: 870px) {
   .all-content {
     width: 100%;
   }
@@ -607,20 +571,8 @@ h6 {
   #caya img {
     width: 100%;
   }
-
-  /* .icons {
-  display: flex;
-  justify-content: space-between;
-} */
-}
-
-
-/********** MOBILE BREAKPOINT ************/
-@media only screen and (max-width: 870px) {
-  label #sign-one {
-    display: block;
-  }
-
+  
+  /* MOBILE NAV */
   nav ul {
     position: fixed;
     width: 100%;
@@ -645,6 +597,9 @@ h6 {
     font-size: 24px;
   }
 
+  label #sign-one {
+    display: block;
+  }
   #res-menu:checked ~ ul{
     left: 0;
   }
@@ -655,13 +610,9 @@ h6 {
     display: block;
   }
 
-  /* #res-menu:checked ~ #nav-icon {
-    display: inline;
-  } */
   #nav-icon {
     display: flex;
   }
-
   #nav-icon:hover {
     color: #ceeb7a;
   }
@@ -671,7 +622,6 @@ h6 {
     text-align: left;
   }
 
-  
   .button-container {
     padding: 16px 0;
   }
@@ -700,8 +650,9 @@ h6 {
     padding-bottom: 0;
   }
 
-.text-on-right {
+  .text-on-right {
   justify-content: left;
+  margin: 0;
 }
 
   .case-studies-text h5 {
@@ -724,17 +675,12 @@ h6 {
     padding-top: 16px;
   }
 
-
   .case-study-grid {
     display: block;
   }
 
   .grid-item-full, .grid-item-half {
     padding-bottom: 24px;
-  }
-
-  .text-on-right {
-    margin: 0;
   }
 
   .workflow-section h4 {
@@ -748,11 +694,6 @@ h6 {
   .workflow-grid-item {
     width: 100%;
   }
-
-  /* ABOUT PAGE */
-  .about-wrapper h2 {
-  padding-bottom: 24px;
-}
 
 
 }
