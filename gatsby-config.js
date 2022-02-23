@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `conjure`,
+    title: `Conjure`,
     description: `Web development studio based in Chicago`,
-    author: `Ryan Jeffrey Smith`,
+    author: `Ryan J Smith`,
     siteUrl: `https://conjure.company`,
   },
   plugins: [
