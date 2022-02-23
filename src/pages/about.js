@@ -54,11 +54,13 @@ const About = () => {
               redesigned my team’s e-commerce store and one thing became clear:
               every company is a software company.
               <br />
-              <br /> With an upgrade in software and stronger web presence, we
+              <br /> 
+              With an upgrade in software and stronger web presence, we
               increased sales by 150% that year. The excitement of growing a
               business coincided with a newfound passion for making websites. I
               designed several websites for various projects, and digging deeper
-              into development proved valuable in a very tangible way. <br />
+              into development proved valuable in a very tangible way. 
+              <br />
               <br />
               Once the pandemic hit, my newly hybrid role afforded me more time
               to dig even deeper. After a bootcamp and several self-guided
@@ -80,10 +82,10 @@ const About = () => {
                   </a>
                 </div>
                 <div className="grid-item icons">
-                  <SiJavascript size="40px" color />
+                  <SiReact size="40px" />
                 </div>
                 <div className="grid-item icons">
-                  <SiReact size="40px" />
+                  <SiJavascript size="40px" />
                 </div>
                 <div className="grid-item icons">
                   <SiCss3 size="40px" />
