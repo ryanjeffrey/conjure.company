@@ -21,6 +21,7 @@ import {
 } from "react-icons/si"
 
 const About = () => {
+
   return (
     <div>
       <Layout>
@@ -47,16 +48,17 @@ const About = () => {
               design, I have a natural inclination to make things and build
               systems.
               <br />
-              <br />Before I wrote my first line of code, I explored a
-              learning opportunity in digital marketing. After that marketing
-              course I redesigned my team’s e-commerce store and one thing
-              became clear: every company is a software company.
               <br />
-              <br /> With an upgrade in software and stronger web presence, we increased sales by 150% that year. The
-              excitement of growing a business coincided with a newfound passion
-              for making websites. I designed several websites for various
-              projects, and digging deeper into development proved valuable in a
-              very tangible way. <br />
+              Before I wrote my first line of code, I explored a learning
+              opportunity in digital marketing. After that marketing course I
+              redesigned my team’s e-commerce store and one thing became clear:
+              every company is a software company.
+              <br />
+              <br /> With an upgrade in software and stronger web presence, we
+              increased sales by 150% that year. The excitement of growing a
+              business coincided with a newfound passion for making websites. I
+              designed several websites for various projects, and digging deeper
+              into development proved valuable in a very tangible way. <br />
               <br />
               Once the pandemic hit, my newly hybrid role afforded me more time
               to dig even deeper. After a bootcamp and several self-guided
@@ -64,52 +66,53 @@ const About = () => {
               career. My goal is to do the heavy lifting to make digital
               products feel effortless. As if by magic.
             </p>
-            <div className="icons">
-              <a href="https://www.linkedin.com/in/ryan-smith-219614230/">
-                <SiLinkedin size="40px" color="#0072b1" />
-              </a>
-            </div>
-            <div className="icons">
-              <a href="https://github.com/ryanjeffrey/">
-                <SiGithub size="40px" color="#6e5494" />
-              </a>
-            </div>
-            <div className="spacer"></div>
-            <h3>Skills:</h3>
-              <div className="skill-icon-wrapper">
-                <div className="icons">
+
+            <div className="skill-icon-wrapper">
+              <section className="grid-container skills">
+                <div className="grid-item icons">
+                  <a href="https://www.linkedin.com/in/ryan-smith-219614230/">
+                    <SiLinkedin size="40px" color="#0072b1" />
+                  </a>
+                </div>
+                <div className="grid-item icons">
+                  <a href="https://github.com/ryanjeffrey/">
+                    <SiGithub size="40px" color="#6e5494" />
+                  </a>
+                </div>
+                <div className="grid-item icons">
                   <SiJavascript size="40px" color />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiReact size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiCss3 size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiAdobephotoshop size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiGatsby size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiFigma size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiAmazonaws size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiStackoverflow size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiVisualstudiocode size="40px" />
                 </div>
-                <div className="icons">
+                <div className="grid-item icons">
                   <SiGoogle size="40px" />
                 </div>
-              </div>
+              </section>
+            </div>
             <Link to="/contact">
-              <button>Learn More</button>
+              <button id="about-button">Learn More</button>
             </Link>
           </div>
         </div>

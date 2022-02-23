@@ -65,7 +65,7 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 
-
+/********** NAV ************/
 nav {
     position: fixed;
     top: 0px;
@@ -80,8 +80,6 @@ nav {
     overflow: hidden;
     /* border-bottom: 1px solid #F7F4F0; */
 }
-
-/* NEW NAV */
 
 nav h1 { 
   padding: 24px;
@@ -235,64 +233,6 @@ span {
 
 
 
-.tracking-in-contract {
-	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
-	        animation: tracking-in-contract 0.8s cubic-bezier(0.445, 0.050, 0.550, 0.950) both;
-}
-
-/**
- * ----------------------------------------
- * animation tracking-in-contract
- * ----------------------------------------
- */
-@-webkit-keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
-}
-@keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
-}
-
-@keyframes downarrow {
-  0% { transform: translateY(0); opacity: 0.4}
-  100% { transform: translateY(0.4em); opacity: 0.9 }
-}
-@-webkit-keyframes downarrow {
-  0% { -webkit-transform: translateY(0); opacity: 0.4 }
-  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
-}
-
-.arrow {
-  padding: 24px;
-  display:block;
-  margin:10em auto;
-  opacity:0.4;
-  transform-origin: 50% 50%;
-}
-
-.down {
-  animation: downarrow 0.9s infinite alternate ease-in-out;
-  -webkit-animation: downarrow 0.9s infinite alternate ease-in-out;
-}
 
 
 .cssanimation, .cssanimation span {
@@ -317,44 +257,7 @@ span {
   padding: 96px 0;
 }
 
-.carousel-wrapper {
-  margin: 0 auto;
-  position: relative;
-  max-width: 1280px;
- 
-}
 
-.carousel-wrapper button {
-  border: none;
-  box-shadow: none;
-}
-
-
-#bespoke, #equality {
-  display: grid;
-  color: var(--black);
-  background-color: var(--white);
-
-}
-
-#bespoke h2 {
-  font-size: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  font-weight: normal;
-}
-
-#sunbursts {
-  display: flex;
-  max-width: 1280px;
-  height: 400px;
-  align-items: center;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .sun-wrapper {
     -webkit-animation:fadeInOut 5s infinite;
@@ -449,6 +352,10 @@ span {
   padding: 0;
 }
 
+.grid-container.skills {
+  grid-template-columns: auto auto auto;
+}
+
 .item1 {
   display: flex;
   flex-direction: column;
@@ -533,6 +440,7 @@ h6 {
 .case-study h3 {
   padding: 48px 0 0 0;
   margin: 0;
+  font-size: 18px;
 }
 
 .half-wrapper {
@@ -603,7 +511,7 @@ h6 {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.6;
-  padding: 24px 0;
+  padding: 24px 0 0 0;
   text-align: left;
 }
 
@@ -612,9 +520,9 @@ h6 {
 }
 
 .icons {
-  margin: 24px 24px 24px 0;
+  margin: 0 auto;
   transition: 0.5s ease-in-out;
-  display: initial;
+  padding: 16px 0;
 }
 .icons:hover {
   opacity: .8;
@@ -628,19 +536,31 @@ h6 {
 .bio-wrapper h3 {
   text-transform: uppercase;
   font-weight: normal;
+  padding-top: 24px;
 }
 
-.bio-wrapper button {
-  margin: 24px 0;
+
+
+#about-button {
+  display: flex;
+  margin: 24px auto;
 }
 
-.spacer {
-  padding: 12px;
+#about-button button {
+  margin: 24px;
 }
 
 .skill-icon-wrapper {
+  display: grid;
+  
+  
+}
+
+.grid-item {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
 }
 
 /*********** Contact Page ***************/
@@ -654,8 +574,7 @@ h6 {
 }
 
 #inquiries {
-  font-size: 16px;
-  padding: 24px 0 8px;
+  font-size: 14px;
 }
 
 .contact-link {
@@ -675,7 +594,7 @@ h6 {
 
 
 
-/******** TABLET BREAKPOINT  ************/
+/******** TABLET BREAKPOINT  *********************/
 @media only screen and (max-width: 1000px) {
   .all-content {
     width: 100%;
@@ -688,6 +607,11 @@ h6 {
   #caya img {
     width: 100%;
   }
+
+  /* .icons {
+  display: flex;
+  justify-content: space-between;
+} */
 }
 
 
@@ -788,6 +712,10 @@ h6 {
     padding: 24px 0;
   }
 
+  .grid-container.skills {
+    grid-template-columns: auto auto auto;
+  }
+
   .case-study {
     margin-bottom: 0;
   }
@@ -826,14 +754,6 @@ h6 {
   padding-bottom: 24px;
 }
 
-.skill-icon-wrapper {
-  display: grid;
-  justify-content: space-between;
-}
-
-  footer {
-    padding: 0;
-  }
 
 }
 
