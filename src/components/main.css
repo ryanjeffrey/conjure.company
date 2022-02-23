@@ -154,7 +154,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--color-accent);
+  opacity: 75%;
 }
 
 
