@@ -62,10 +62,8 @@ const About = () => {
               into development proved valuable in a very tangible way. 
               <br />
               <br />
-              Once the pandemic hit, my newly hybrid role afforded me more time
-              to dig even deeper. After a bootcamp and several self-guided
-              development courses, I knew that I'd be coding for the rest of my
-              career. My goal is to do the heavy lifting to make digital
+              After engineering several projects for clients on a freelance basis, I knew that I'd be coding for the rest of my
+              career. My experience led me to create my own company, <span>conjure</span>. Our goal is to do the heavy lifting to make digital
               products feel effortless. As if by magic.
             </p>
 
