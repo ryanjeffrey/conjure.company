@@ -38,9 +38,8 @@ const About = () => {
               alt="headshot"
               id=""
             />
-          </div>
 
-          <div className="bio-wrapper">
+            <div className="bio-wrapper">
             <p id="bio">
               <span>conjure</span> is the development studio of Ryan Smith. I'm
               a creative entrepreneur who loves making clean digital things with
@@ -124,11 +123,16 @@ const About = () => {
                   <SiGoogle size="40px" />
                   <span className="tooltiptext">Google</span>
                 </div>
+                
               </section>
+              <Link to="/contact">
+                  <button id="about-button">Learn More</button>
+                </Link>
             </div>
-            <Link to="/contact">
-              <button id="about-button">Learn More</button>
-            </Link>
+          </div>
+
+          
+            
           </div>
         </div>
       </Layout>
