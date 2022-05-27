@@ -97,7 +97,7 @@ const About = () => {
                 </div>
                 <div className="grid-item icons tooltip">
                   <SiAdobephotoshop size="40px" />
-                  <span className="tooltiptext">Adobe Photoshop</span>
+                  <span className="tooltiptext">Photoshop</span>
                 </div>
                 <div className="grid-item icons tooltip">
                   <SiGatsby size="40px" />
