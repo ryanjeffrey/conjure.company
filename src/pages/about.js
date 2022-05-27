@@ -28,17 +28,19 @@ const About = () => {
         <Seo title="About" />
         <div className="container cssanimation sequence fadeInBottom">
           <div className="about-wrapper">
-            <StaticImage
-              src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/headshot-2022-web.jpg"
-              className=""
-              width={480}
-              quality={100}
-              margin={0}
-              formats={["auto", "webp"]}
-              alt="headshot"
-              id=""
-            />
-
+            <div className="headshot-with-greeting">
+              <StaticImage
+                src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/headshot-2022-web.jpg"
+                className=""
+                width={480}
+                quality={100}
+                margin={0}
+                formats={["auto", "webp"]}
+                alt="headshot"
+                id=""
+              />
+              <h3 className="greeting">Hi! I'm Ryan (he/him)</h3>
+            </div>
             <div className="bio-wrapper">
               <p id="bio">
                 <span>conjure</span> is the development studio of Ryan Smith. I'm

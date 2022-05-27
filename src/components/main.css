@@ -318,6 +318,7 @@ span {
 }
 
 .grid-container.skills {
+  margin-top: 24px;
   grid-template-columns: auto auto auto;
 }
 
@@ -468,9 +469,11 @@ h6 {
   justify-content: space-evenly;
 }
 
-.about-wrapper img {
-  max-height: 480px;
-  max-width: 480px;
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0 0 0;
 }
 
 #bio {
