@@ -15,7 +15,7 @@ import {
   SiReact,
   SiFigma,
   SiAmazonaws,
-  SiStackoverflow,
+  SiBlender,
   SiVisualstudiocode,
   SiGoogle,
 } from "react-icons/si"
@@ -112,8 +112,8 @@ const About = () => {
                   <span className="tooltiptext">aws</span>
                 </div>
                 <div className="grid-item icons tooltip">
-                  <SiStackoverflow size="40px" />
-                  <span className="tooltiptext">StackOverflow</span>
+                  <SiBlender size="40px" />
+                  <span className="tooltiptext">Blender</span>
                 </div>
                 <div className="grid-item icons tooltip">
                   <SiVisualstudiocode size="40px" />
