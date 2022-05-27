@@ -544,7 +544,7 @@ h6 {
 }
 
 .grid-container.skills {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
   }
 
 .grid-item {
@@ -726,6 +726,7 @@ h6 {
   /* ABOUT PAGE */
   .about-wrapper {
     flex-direction: column;
+    align-items: center;
 }
   
   #bio {
