@@ -56,70 +56,15 @@ const hollywood = () => (
           searchlight spinning animation. The user can interact with the lights
           by clicking and dragging to control the spin. At the bottom of the
           experience, we highlight the client list using a rolling marquee. Fun,
-          clean, and effective.
+          clean, and effective. <br />
+          <a
+            href="https://hollywoodnitelighter.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See for yourself →
+          </a>
         </p>
-      </div>
-
-      <div className="case-study-grid">
-        <div className="grid-item-half">
-          <StaticImage
-            src=""
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="hollywood nite lighter"
-          />
-        </div>
-
-        <div className="grid-item-half">
-          <StaticImage
-            src=""
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="hollywood nite lighter"
-          />
-        </div>
-
-        <div className="grid-item-full">
-          <StaticImage
-            src=""
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="hollywood nite lighter"
-          />
-        </div>
-
-        <div className="grid-item-half">
-          <StaticImage
-            src=""
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="hollywood nite lighter"
-          />
-        </div>
-
-        <div className="grid-item-half">
-          <StaticImage
-            src=""
-            className="hero-img"
-            width={1280}
-            quality={100}
-            margin={0}
-            formats={["auto", "webp"]}
-            alt="hollywood nite lighter"
-          />
-        </div>
       </div>
 
       <div className="button-container next">
