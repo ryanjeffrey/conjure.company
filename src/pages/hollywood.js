@@ -57,6 +57,7 @@ const hollywood = () => (
           by clicking and dragging to control the spin. At the bottom of the
           experience, we highlight the client list using a rolling marquee. Fun,
           clean, and effective. <br />
+          <br />
           <a
             href="https://hollywoodnitelighter.com"
             target="_blank"

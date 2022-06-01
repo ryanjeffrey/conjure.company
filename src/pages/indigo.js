@@ -42,11 +42,11 @@ const indigo = () => (
           We partnered with INDIGO to reposition and evolve the brand to better
           serve the next generation of beauty professionals. We did a deep dive
           into the history of the brand, the competitive landscape, and how we
-          could best serve their current and future clients.
-          Through our brand strategy, visual identity, and art direction, we
-          arrived at a youthful, vibrant and contemporary identity appropriate
-          for this legendary brand. After launch, e-commerce sales grew 150% in
-          the first year.
+          could best serve their current and future clients. Through our brand
+          strategy, visual identity, and art direction, we arrived at a
+          youthful, vibrant and contemporary identity appropriate for this
+          legendary brand. After launch, e-commerce sales grew 150% in the first
+          year.
         </p>
       </div>
 
@@ -156,9 +156,9 @@ const indigo = () => (
         </div>
       </div>
 
-      <div className="button-container">
-        <Link to="/caya">
-          <button className="case-study-btn">Previous</button>
+      <div className="button-container next">
+        <Link to="/hollywood">
+          <button className="case-study-btn">Next</button>
         </Link>
       </div>
     </div>
