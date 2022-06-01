@@ -533,17 +533,11 @@ h6 {
 
 #about-button {
   display: flex;
-  margin: 24px auto;
-}
-
-#about-button button {
-  margin: 24px;
+  margin: 0 auto 48px;
 }
 
 .skill-icon-wrapper {
   display: grid;
-  
-  
 }
 
 .grid-container.skills {
