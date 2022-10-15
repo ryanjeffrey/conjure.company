@@ -19,7 +19,7 @@ const Hero = () => {
 
         <div className="img-wrapper">
           <StaticImage
-            src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/conjure-hero2.jpg"
+            src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/multi-hero22.jpg"
             className="hero-img"
             width={1280}
             quality={100}
