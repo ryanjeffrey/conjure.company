@@ -11,7 +11,7 @@ const Hero = () => {
           <h2 id="hero-text" className="">
             <span>conjure</span> is a development studio.
             <br />
-            We partner with creative agencies to bring designs to life.
+            We partner with businesses to create custom website solutions .
             <br /> As if by magic.
           </h2>
           {/* <p className="arrow down">&#8595;</p> */}
