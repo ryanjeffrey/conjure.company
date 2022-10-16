@@ -16,6 +16,34 @@ const work = () => {
               <div className="item2 flip">
                 <div className="img-wrapper">
                   <StaticImage
+                    src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/simone-laptop.jpg"
+                    className="hero-img"
+                    width={1096}
+                    quality={60}
+                    margin={0}
+                    formats={["auto", "webp", "avif"]}
+                    alt="simone chagoya artist website"
+                  />
+                </div>
+              </div>
+
+              <div className="item1 text-on-right">
+                <h6>SIMONE CHAGOYA</h6>
+                <p id="designing">Crafting a custom artist portfolio with 3D gallery</p>
+
+                <Link to="/simone">
+                  <button className="see-case-study">See case study</button>
+                </Link>
+              </div>
+            </div>
+
+            <div className="case-study-spacer"></div>
+            <div className="case-study-spacer-2"></div>
+
+            <div className="grid-container">
+              <div className="item2 flip">
+                <div className="img-wrapper">
+                  <StaticImage
                     src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/hollywood-laptop.jpg"
                     className="hero-img"
                     width={1096}

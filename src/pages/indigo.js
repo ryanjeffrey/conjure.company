@@ -157,7 +157,7 @@ const indigo = () => (
       </div>
 
       <div className="button-container next">
-        <Link to="/hollywood">
+        <Link to="/simone">
           <button className="case-study-btn">Next</button>
         </Link>
       </div>
