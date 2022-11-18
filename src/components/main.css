@@ -662,8 +662,10 @@ h6 {
     display: block;
   }
 
+  .img-wrapper {
+    padding: 24px;
+  }
 
-  
   /* WORK PAGE */
   .grid-container {
     display: grid;
