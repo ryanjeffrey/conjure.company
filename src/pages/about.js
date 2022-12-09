@@ -26,7 +26,7 @@ const About = () => {
     <div>
       <Layout>
         <Seo title="About" />
-        <div className="container cssanimation sequence fadeInBottom">
+        <div className="container about-page cssanimation sequence fadeInBottom">
           <div className="about-wrapper">
             <div className="headshot-with-greeting">
               <StaticImage
