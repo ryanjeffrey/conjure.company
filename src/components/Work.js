@@ -70,6 +70,36 @@ const Work = () => {
           <div className="item2 flip">
             <div className="img-wrapper">
               <StaticImage
+                src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/collabo-laptop.jpg"
+                className="hero-img"
+                width={1096}
+                quality={60}
+                margin={0}
+                formats={["auto", "webp", "avif"]}
+                alt="collabo audio recording sharing app"
+              />
+            </div>
+          </div>
+
+          <div className="item1 text-on-right">
+            <h6>COLLABO</h6>
+            <p id="designing">
+              Crafting a full-stack audio recording collaboration app
+            </p>
+
+            <Link to="/collabo">
+              <button className="see-case-study">See case study</button>
+            </Link>
+          </div>
+        </div>
+
+        <div className="case-study-spacer"></div>
+        <div className="case-study-spacer-2"></div>
+
+        <div className="grid-container">
+          <div className="item2 flip">
+            <div className="img-wrapper">
+              <StaticImage
                 src="https://rscbucket.s3.us-east-2.amazonaws.com/conjure/hollywood-laptop.jpg"
                 className="hero-img"
                 width={1096}
