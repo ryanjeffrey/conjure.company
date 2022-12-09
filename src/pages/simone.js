@@ -58,7 +58,7 @@ const simone = () => (
       </div>
 
       <div className="button-container next">
-        <Link to="/hollywood">
+        <Link to="/collabo">
           <button className="case-study-btn">Next</button>
         </Link>
       </div>
