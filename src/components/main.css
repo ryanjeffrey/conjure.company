@@ -604,6 +604,10 @@ h6 {
 
 /********** MOBILE BREAKPOINT ************/
 @media only screen and (max-width: 870px) {
+  body {
+  min-height: 0;
+  display: block;
+}
   .all-content {
     width: 100%;
   }
@@ -743,7 +747,7 @@ h6 {
 
   /* ABOUT PAGE */
   .about-page {
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .about-wrapper {
