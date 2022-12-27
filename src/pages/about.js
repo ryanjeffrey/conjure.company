@@ -75,7 +75,7 @@ const About = () => {
           <div className="skill-icon-wrapper">
             <section className="grid-container skills">
               <div className="grid-item icons tooltip">
-                <a href="https://www.linkedin.com/in/ryan-smith-219614230/">
+                <a href="https://www.linkedin.com/in/ryan-jeffrey-smith/">
                   <SiLinkedin size="40px" color="#0072b1" />
                 </a>
                 <span className="tooltiptext">LinkedIn</span>
