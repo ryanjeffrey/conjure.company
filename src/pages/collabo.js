@@ -13,7 +13,7 @@ const collabo = () => (
     <Seo title="COLLABO Case Study" />
     <div className="case-study cssanimation sequence fadeInBottom">
       <div className="half-wrapper">
-        <h6>Crafting a full-stack audio recording collaboration app</h6>
+        <h6>Developing a full-stack audio recording collaboration app</h6>
       </div>
       <p>
         <a href="https://collabomusic.co" target="_blank" rel="noreferrer">

@@ -69,7 +69,7 @@ const hollywood = () => (
       </div>
 
       <div className="button-container next">
-        <Link to="/caya">
+        <Link to="/indigo">
           <button className="case-study-btn">Next</button>
         </Link>
       </div>
