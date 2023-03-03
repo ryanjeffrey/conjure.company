@@ -120,7 +120,7 @@ const caya = () => (
       </div>
 
       <div className="button-container next">
-        <Link to="/indigo">
+        <Link to="/ai-messenger">
           <button className="case-study-btn">Next</button>
         </Link>
       </div>
